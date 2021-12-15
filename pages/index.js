@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../components/Main.module.css'
 
 function HomePage() {
   return (
@@ -11,7 +10,7 @@ function HomePage() {
       <body>
         <header className="header">
           <div className="container">
-            <div className="header-inner">
+            <div className="flex justify-between items-center h-24">
               <a className="logo" href="#">
                 <img className="logo_img" src="/logo.svg" alt="" />
                 <img className="logo_titles" src="/logo_titles.svg" alt="" />
