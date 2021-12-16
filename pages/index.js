@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import Footer from '../components/footer'
 
 function HomePage() {
   return (
-    <div className="html">
+    <div className="md:container">
       <Head>
         <title>Baky Bereket</title>
         <link rel="icon" href="/favicon.ico" />
@@ -10,7 +11,7 @@ function HomePage() {
       <body>
         <header className="header">
           <div className="container">
-            <div className="flex justify-between items-center h-24">
+            <div className="flex justify-between items-center ">
               <a className="logo" href="#">
                 <img className="logo_img" src="/logo.svg" alt="" />
                 <img className="logo_titles" src="/logo_titles.svg" alt="" />
@@ -65,15 +66,7 @@ function HomePage() {
           <h1>Section Контакты</h1>
         </div>
 
-        <footer>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
-          </a>
-        </footer>
+        <Footer />
       </body>
     </div>
   )
