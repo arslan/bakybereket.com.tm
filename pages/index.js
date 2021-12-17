@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Footer from '../components/footer'
+import Section_4 from '../components/section_4'
 
 function HomePage() {
   return (
-    <div className="md:container">
+    <div className="max-w-full">
       <Head>
         <title>Baky Bereket</title>
         <link rel="icon" href="/favicon.ico" />
@@ -62,9 +63,7 @@ function HomePage() {
         <div id="section3">
           <h1>Section Нас</h1>
         </div>
-        <div id="section4">
-          <h1>Section Контакты</h1>
-        </div>
+        <Section_4 />
 
         <Footer />
       </body>
