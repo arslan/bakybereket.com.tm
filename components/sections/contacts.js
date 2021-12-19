@@ -2,6 +2,7 @@ import Image from 'next/image'
 import iconInsta from '../../public/button/insta.svg'
 import iconFacebook from '../../public/button/facebook.svg'
 import iconLinked from '../../public/button/linked.svg'
+import Form from './contacts/form'
 import Link from 'next/link'
 
 const ContactsSection = () => {
@@ -46,42 +47,7 @@ const ContactsSection = () => {
           <h2>Cвяжитесь с нами</h2>
           <p>Оставьте ваши данные чтобы мы могли с вами связаться</p>
           <div>
-            <form>
-              <label htmlFor="name">Имя</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                autoComplete="name"
-                required
-              />
-              <label htmlFor="name">Эмеил</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                autoComplete="name"
-                required
-              />
-              <label htmlFor="name">Номер</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                autoComplete="name"
-                required
-              />
-              {/* <input type="">
-                Я хочу защитить свои данные, подписав NDA.
-              </input> */}
-
-              <button
-                type="submit"
-                className="flex items-center  bg-light-blue rounded-none px-14 py-2 min-w-min min-h-min text-xs text-white"
-              >
-                Отправить
-              </button>
-            </form>
+            <Form />
           </div>
         </div>
       </div>
