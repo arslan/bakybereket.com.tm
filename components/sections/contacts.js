@@ -12,38 +12,39 @@ const ContactsSection = () => {
         style={{ 'background-image': "url('/bgSection4.svg')" }}
       >
         <div className="">
-          <div>Наши контакты</div>
-          <div>
+          <h2>Наши контакты</h2>
+          <p>
             ИП «Бакы Берекет» Ашхабад, Копетдагский район Анкара (1946 г.) улица
             дом № 23
-          </div>
-          <div>Tel: +99312964862 Fax: +99312964861</div>
-          <div>E.mail: bakybereket@gmail.com</div>
+          </p>
+          <p>Tel: +99312964862</p>
+          <p>Fax: +99312964861</p>
+          <p>E.mail: bakybereket@gmail.com</p>
           <div className="flex items-center justify-start text-white space-x-5 mt-6">
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none border-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconInsta} />
-                <div className="pl-3">instagram</div>
+                <p className="pl-3">instagram</p>
               </button>
             </a>
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconLinked} />
-                <div className="pl-3">linkedIn</div>
+                <p className="pl-3">linkedIn</p>
               </button>
             </a>
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconFacebook} />
-                <div className="pl-3">facebook</div>
+                <p className="pl-3">facebook</p>
               </button>
             </a>
           </div>
-          <div>Наше место положение</div>
+          <p>Наше место положение</p>
         </div>
         <div className="">
-          <div>Cвяжитесь с нами</div>
-          <div>Оставьте ваши данные чтобы мы могли с вами связаться</div>
+          <h2>Cвяжитесь с нами</h2>
+          <p>Оставьте ваши данные чтобы мы могли с вами связаться</p>
           <div>
             <form>
               <label htmlFor="name">Имя</label>
