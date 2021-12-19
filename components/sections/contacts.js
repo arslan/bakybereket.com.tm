@@ -9,7 +9,7 @@ const ContactsSection = () => {
     <div id="contacts" className="max-w-5xl mx-auto">
       <div
         className="flex bg-local bg-no-repeat bg-contain bg-center px-14"
-        style={{ 'background-image': "url('/bgSection4.svg')" }}
+        style={{ backgroundImage: "url('/bgSection4.svg')" }}
       >
         <div className="">
           <h2>Наши контакты</h2>
@@ -77,7 +77,7 @@ const ContactsSection = () => {
 
               <button
                 type="submit"
-                className="flex items-center  bg-light-blue rounded-none px-14 py-2 min-w-min min-h-min text-xs text-with"
+                className="flex items-center  bg-light-blue rounded-none px-14 py-2 min-w-min min-h-min text-xs text-white"
               >
                 Отправить
               </button>
