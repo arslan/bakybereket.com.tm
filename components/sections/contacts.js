@@ -8,10 +8,10 @@ const ContactsSection = () => {
   return (
     <div id="contacts" className="max-w-5xl mx-auto">
       <div
-        className="bg-local bg-no-repeat bg-contain bg-center px-14"
-        style={{backgroundImage: "url('/bgSection4.svg')" }}
+        className="flex bg-local bg-no-repeat bg-contain bg-center px-14"
+        style={{ 'background-image': "url('/bgSection4.svg')" }}
       >
-        <div>
+        <div className="">
           <div>Наши контакты</div>
           <div>
             ИП «Бакы Берекет» Ашхабад, Копетдагский район Анкара (1946 г.) улица
@@ -23,26 +23,65 @@ const ContactsSection = () => {
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none border-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconInsta} />
-                <div className="pl-3">Instagram</div>
+                <div className="pl-3">instagram</div>
               </button>
             </a>
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconLinked} />
-                <div className="pl-3">LinkedIn</div>
+                <div className="pl-3">linkedIn</div>
               </button>
             </a>
             <a href="https://">
               <button className="flex items-center justify-between bg-light-blue rounded-none px-3 py-2 min-w-min min-h-min text-xs">
                 <Image src={iconFacebook} />
-                <div className="pl-3">Facebook</div>
+                <div className="pl-3">facebook</div>
               </button>
             </a>
           </div>
+          <div>Наше место положение</div>
         </div>
-        <div>
-          <div>свяжитесь с нами</div>
+        <div className="">
+          <div>Cвяжитесь с нами</div>
           <div>Оставьте ваши данные чтобы мы могли с вами связаться</div>
+          <div>
+            <form>
+              <label htmlFor="name">Имя</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autoComplete="name"
+                required
+              />
+              <label htmlFor="name">Эмеил</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autoComplete="name"
+                required
+              />
+              <label htmlFor="name">Номер</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autoComplete="name"
+                required
+              />
+              {/* <input type="">
+                Я хочу защитить свои данные, подписав NDA.
+              </input> */}
+
+              <button
+                type="submit"
+                className="flex items-center  bg-light-blue rounded-none px-14 py-2 min-w-min min-h-min text-xs text-with"
+              >
+                Отправить
+              </button>
+            </form>
+          </div>
         </div>
       </div>
       <div className="flex items-center px-14 bottom-40 mb-32 mt-7">
