@@ -4,12 +4,17 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+     'sans': '"Nunito Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"', 
+    },
     colors: {
-      very_dark_grey: '#353535',
-      very_light_grey: '#E2E2E2',
-      strong_blue: '#1F97D8',
-      with: '#FFFFFF',
-      very_light_blue: '#7E9BFF',
+      'dark-grey': '#353535',
+      'light-grey': '#E2E2E2',
+      'dark-blue': '#1F97D8',
+      'light-blue': '#7E9BFF',
+      'black': '#000000',
+      'white': '#FFFFFF',
+      'red': '#FF0000',
     },
     container: {
       padding: {},
