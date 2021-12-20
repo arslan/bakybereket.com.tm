@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Section1 from '../components/Section1'
 
 function HomePage() {
   return (
@@ -52,9 +53,7 @@ function HomePage() {
           </div>
         </header>
 
-        <div id="section1">
-          <h1>Section Главная</h1>
-        </div>
+        <Section1 />
         <div id="section2">
           <h1>Section Проекты</h1>
         </div>
