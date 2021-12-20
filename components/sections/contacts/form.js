@@ -11,7 +11,7 @@ export default function Form() {
   console.log(errors)
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col">
       <input
         type="text"
         placeholder="First name"
@@ -31,6 +31,7 @@ export default function Form() {
           maxLength: 12,
         })}
       />
+      <input type="text" placeholder="as" {...register('as', {})} />
 
       <input
         className="w-4 h-4"
@@ -41,7 +42,7 @@ export default function Form() {
 
       <input
         type="submit"
-        className="flex items-center  bg-light-blue rounded-none px-14 py-2 min-w-min min-h-min text-xs text-white"
+        className="flex justify-center justify-items-end  bg-light-blue rounded-none shadow-xl px-14 py-2 min-w-min min-h-min w-[220px] text-xs text-white"
       />
     </form>
   )
