@@ -2,8 +2,9 @@ import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
 import Head from "next/head";
 import Header from "../components/sections/header";
-import MainSection from "../components/MainSection";
-import gallerySection from "../components/gallery";
+import Footer from "../components/footer";
+import ContactsSection from "../components/sections/contacts";
+import Hero from "../components/sections/hero";
 
 function HomePage() {
   return (
@@ -18,11 +19,11 @@ function HomePage() {
       </Head>
       <body className="font-sans">
         <Header />
-        
-        <MainSection />
-<gallerySection />
+        <div className="max-w-5xl mx-auto">
+          <Hero />
 
-        <ContactsSection />
+          <ContactsSection />
+        </div>
         <Footer />
       </body>
     </>
