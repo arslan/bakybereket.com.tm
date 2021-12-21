@@ -1,10 +1,13 @@
 import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
+import GallerySection from "../components/gallery";
 import Head from "next/head";
 import Header from "../components/sections/header";
-import Footer from "../components/footer";
-import ContactsSection from "../components/sections/contacts";
 import Hero from "../components/sections/hero";
+
+//import Footer from "../components/footer";
+// import ContactsSection from "../components/sections/contacts";
+
 
 function HomePage() {
   return (
@@ -21,7 +24,7 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
-
+          <GallerySection />
           <ContactsSection />
         </div>
         <Footer />
