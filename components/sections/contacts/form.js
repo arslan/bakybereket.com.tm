@@ -54,20 +54,22 @@ export default function Form() {
         className="text-justify w-xl h-40 box-border rounded border-2 mt-5 outline-none"
         {...register('Message', {})}
       />
-      <div className="flex items-center justify-center mt-5">
+      <div className="flex items-center justify-start -mt-5">
         <input
           className="w-4 h-4 mb-4"
           type="checkbox"
           placeholder="NDA"
           {...register('NDA')}
         />
-        <p className="pl-2 not-italic w-[50%] mt-9 text-xs font-semibold h-20">
+        <p className="pr-6 pl-2 text-left not-italic w-[50%] mt-9 text-xs font-semibold h-20 ">
           Я хочу защитить свои данные, подписав NDA.
         </p>
-        <input
-          type="submit"
-          className=" text-center bg-light-blue rounded-none shadow-xl px-6 py-0 min-w-min min-h-min h-10 font-normal text-xl text-white"
-        />
+        <div className="mb-4 ml-11">
+          <input
+            type="submit"
+            className=" text-center bg-light-blue rounded-none shadow-xl px-10 py-0 min-w-min min-h-min h-10 font-normal text-xl text-white"
+          />
+        </div>
       </div>
     </form>
   )
