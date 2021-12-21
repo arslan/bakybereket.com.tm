@@ -4,7 +4,7 @@ import Hero from "../components/sections/hero";
 import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
 import About from '../components/sections/about'
-
+import Projects from "../components/sections/projects";
 
 function HomePage() {
   return (
@@ -23,6 +23,7 @@ function HomePage() {
           <Hero />
 
           <About />
+          <Projects />
           <ContactsSection />
         </div>
         <Footer />
