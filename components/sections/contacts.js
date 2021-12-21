@@ -13,12 +13,12 @@ const ContactsSection = () => {
   return (
     <div id="contacts" className="  text-dark-grey">
       <div
-        className="flex max-w-5xl m-auto items-center justify-between min-h-min bg-local bg-no-repeat bg-center bg-auto"
+        className="flex m-auto bg-local bg-no-repeat bg-[center_right_13rem] bg-46%"
         style={{ backgroundImage: "url('/bgSection4.svg')" }}
       >
-        <div className="flex flex-col -mt-60 mr-12">
+        <div className="flex flex-col  mr-12">
           <h2 className="not-italic   pb-16 min-h-min">Наши контакты</h2>
-          <p className="not-italic font-normal  max-w-[512px] h-20  min-h-min">
+          <p className="not-italic font-normal  max-w-[512px]  min-h-min">
             ИП «Бакы Берекет» Ашхабад, Копетдагский район Анкара (1946 г.) улица
             дом № 23
             <Image src={underline1} />
@@ -53,7 +53,7 @@ const ContactsSection = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-start lnot-italic ml-12">
+        <div className="flex flex-col justify-start lnot-italic ml-12 h-1 ">
           <h2>Cвяжитесь с нами</h2>
           <p className="mt-0 font-semibold ">
             Оставьте ваши данные чтобы мы могли с вами связаться
@@ -63,7 +63,7 @@ const ContactsSection = () => {
           </div>
         </div>
       </div>
-      <p className="max-w-5xl m-auto not-italic font-semibold text-xl mt-28">
+      <p className="max-w-5xl m-auto not-italic font-semibold text-xl mt-40">
         Наше место положение
       </p>
       <iframe

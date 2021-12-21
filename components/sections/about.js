@@ -7,12 +7,14 @@ import underline1 from '../../public/about/underline.svg'
 
 const About = () => {
   return (
-    <div className="max-w-5xl">
-      <div className="flex">
-        <div className="flex flex-col">
-          <h2>О нас</h2>
-          <Image src={underline1} />
-          <p>
+    <div id="about" className="bg-white text-dark-grey mt-11">
+      <div className="flex items-center justify-between h-80 ">
+        <div className="flex flex-col pr-6">
+          <div className="">
+            <h2 className="text-dark-grey -mb-14">О нас</h2>
+            <Image className="" src={underline1} />
+          </div>
+          <p className="text-left h-40 max-w-3xl">
             Индивидуальное предприятие «Бакы Берекет» было основано в 2014 году
             и является одной из ведущих компаний в Туркменистане,
             специализирующейся на строительстве жилищных комплексов,
@@ -20,21 +22,23 @@ const About = () => {
             зданий.
           </p>
         </div>
-        <Image src={unsp} />
+        <div className="pl-6 w-full">
+          <Image src={unsp} />
+        </div>
       </div>
-      <div className="flex flex-col items-center">
-        <h2>Наше преимущество</h2>
-        <div className="flex items-center text-center">
+      <div className="flex flex-col items-center h-72 pt-16">
+        <h2 className="text-dark-grey">Наше преимущество</h2>
+        <div className="flex flex-wrap items-center text-center pt-8 pb-20">
           <div className="">
-            <Image src={group1} />
+            <Image src={group1} width={80} height={80} />
             <p>Безопасно</p>
           </div>
-          <div>
-            <Image src={group2} />
+          <div className="px-24">
+            <Image src={group2} width={80} height={80} />
             <p>Надёжно</p>
           </div>
           <div>
-            <Image src={group3} />
+            <Image src={group3} width={80} height={80} />
             <p>Современно</p>
           </div>
         </div>
