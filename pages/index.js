@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/sections/header";
 import Footer from "../components/footer";
 import ContactsSection from "../components/sections/contacts";
+import Hero from "../components/sections/hero";
 
 function HomePage() {
   return (
@@ -16,7 +17,11 @@ function HomePage() {
       </Head>
       <body className="font-sans">
         <Header />
-        <ContactsSection />
+        <div className="max-w-5xl mx-auto">
+          <Hero />
+
+          <ContactsSection />
+        </div>
         <Footer />
       </body>
     </>

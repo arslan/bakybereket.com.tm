@@ -7,11 +7,13 @@ import underline1 from '../../public/contactUnderline/underline1.svg'
 import underline2 from '../../public/contactUnderline/underline2.svg'
 import Link from 'next/link'
 
+
 //
 //absolute -z-10 w-2/4 h-full bg-clip-content bg-contain bg-no-repeat bg-center ml
 //mx-60 mb-32 mt-40
 const ContactsSection = () => {
   return (
+
     <div id="contacts" className="  text-dark-grey ">
       <div
         className="flex max-w-5xl m-auto items-center justify-between min-h-min bg-local bg-no-repeat bg-contain bg-center"
@@ -78,7 +80,7 @@ const ContactsSection = () => {
         loading="lazy"
       ></iframe>
     </div>
-  )
-}
+  );
+};
 
-export default ContactsSection
+export default ContactsSection;
