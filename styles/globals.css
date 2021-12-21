@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+.prev-button-hero {
+    @apply bg-light-blue
+}
+
+.next-button-hero {
+    @apply bg-dark-grey ml-1
+}
+
+.btn {
+    @apply py-2 border-solid border-[1px] border-white px-8
+}
+
+h2 {
+    @apply text-dark-grey text-lg font-bold uppercase h-20
+}
+
+.hero-texts p {
+    @apply text-sm
+}
+
+.inner-circle {
+    @apply bg-light-blue w-2 h-2 rounded-full absolute top-1/4 left-1/4
+}
+
+.circle {
+    @apply w-4 h-4 bg-light-blue/50 rounded-full absolute
+}
