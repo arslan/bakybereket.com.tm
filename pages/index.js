@@ -1,10 +1,15 @@
+import About from '../components/sections/about'
+import ContactsSection from "../components/sections/contacts";
+import Footer from "../components/footer";
+import GallerySection from "../components/gallery";
 import Head from "next/head";
 import Header from "../components/sections/header";
 import Hero from "../components/sections/hero";
-import ContactsSection from "../components/sections/contacts";
-import Footer from "../components/footer";
-import About from '../components/sections/about'
 import Projects from "../components/sections/projects";
+
+//import Footer from "../components/footer";
+// import ContactsSection from "../components/sections/contacts";
+
 
 function HomePage() {
   return (
@@ -21,9 +26,9 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
-
           <Projects />
           <About />
+          <GallerySection />
           <ContactsSection />
         </div>
         <Footer />
