@@ -37,7 +37,7 @@ function Language() {
               <button>
                 <Link
                   href="/"
-                  locale="ru"
+                  locale="en"
                   className={`${active && "bg-dark-blue"}`}
                 >
                   <a>English</a>
@@ -50,7 +50,7 @@ function Language() {
               <button>
                 <Link
                   href="/"
-                  locale="ru"
+                  locale="tk"
                   className={`${active && "bg-dark-blue"}`}
                 >
                   <a>Türkmençe</a>

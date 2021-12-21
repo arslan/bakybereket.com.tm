@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import iconInsta from '../../public/button/insta.svg'
-import iconFacebook from '../../public/button/facebook.svg'
-import iconLinked from '../../public/button/linked.svg'
-import Link from 'next/link'
+import Image from "next/image";
+import iconInsta from "../../public/button/insta.svg";
+import iconFacebook from "../../public/button/facebook.svg";
+import iconLinked from "../../public/button/linked.svg";
+import Link from "next/link";
 
 const ContactsSection = () => {
   return (
-    <div id="contacts" className="max-w-5xl mx-auto">
+    <div id="contacts">
       <div
         className="flex bg-local bg-no-repeat bg-contain bg-center px-14"
         style={{ backgroundImage: "url('/bgSection4.svg')" }}
@@ -95,7 +95,7 @@ const ContactsSection = () => {
         ></iframe>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactsSection
+export default ContactsSection;
