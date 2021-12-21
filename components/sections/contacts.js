@@ -5,7 +5,6 @@ import iconLinked from '../../public/button/linked.svg'
 import Form from './contacts/form'
 import underline1 from '../../public/contactUnderline/underline1.svg'
 import underline2 from '../../public/contactUnderline/underline2.svg'
-import Link from 'next/link'
 
 //
 //absolute -z-10 w-2/4 h-full bg-clip-content bg-contain bg-no-repeat bg-center ml
