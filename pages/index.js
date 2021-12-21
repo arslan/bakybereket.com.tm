@@ -10,7 +10,6 @@ import Projects from "../components/sections/projects";
 //import Footer from "../components/footer";
 // import ContactsSection from "../components/sections/contacts";
 
-
 function HomePage() {
   return (
     <>
@@ -26,9 +25,15 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
+<<<<<<< HEAD
           <Projects />
           <About />
           <GallerySection />
+=======
+        </div>
+        <GallerySection />
+        <div className="max-w-5xl mx-auto">
+>>>>>>> e1f5497 (feat(lightbox_grid.js,-gallery.js,-_app.js,-index.js): added lightbox feature, fixed the gallery grid)
           <ContactsSection />
         </div>
         <Footer />
