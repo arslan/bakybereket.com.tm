@@ -1,5 +1,6 @@
 import Carousel from "./hero/carousel";
 import Background from "./hero/background";
+import { ChevronRightIcon } from "@heroicons/react/solid";
 
 import Line from "./hero/line";
 import HeroTexts from "./hero/hero_texts";
@@ -19,6 +20,10 @@ function Hero() {
 
       <Line />
       <HeroTexts />
+      <div className="absolute bottom-36 -right-14 rotate-90 hidden lg:inline-flex text-sm">
+        <h3 className="font-semibold text-dark-grey/60">ПРОКРУТКА ВНИЗ</h3>
+        <ChevronRightIcon className="my-auto h-5 w-5 text-dark-grey/60" />
+      </div>
     </div>
   );
 }
