@@ -2,6 +2,8 @@ import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
 import Head from "next/head";
 import Header from "../components/sections/header";
+import MainSection from "../components/MainSection";
+import gallerySection from "../components/gallery";
 
 function HomePage() {
   return (
@@ -16,6 +18,10 @@ function HomePage() {
       </Head>
       <body className="font-sans">
         <Header />
+        
+        <MainSection />
+<gallerySection />
+
         <ContactsSection />
         <Footer />
       </body>

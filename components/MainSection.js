@@ -1,18 +1,16 @@
 import Image from "next/image";
+import MainSectionSlider from "./MainSectionSlider";
 
-const Section1 = () => {
+const MainSection = () => {
   return (
     <section className="bg-no-repeat bg-center flex flex-wrap" 
-    style={{"background-image": "url('section.png')"}}>
+    style={{"background-image": "url('mainSection_bg.png')"}}>
       <div>
         <div className="">
           <h1 className="text-5xl font-extrabold">Строительство и обустройство</h1>
         </div>
         <div className="mainCarousel">
-          <Image className=""
-            url={'about_us.png'}
-            alt="Picture of the author"
-          ></Image>
+        <MainSectionSlider />
         </div>
       </div>
 
@@ -35,4 +33,5 @@ const Section1 = () => {
   );
 }
 
-export default Section1;  
+export default MainSection;  
+
