@@ -8,7 +8,6 @@ import Hero from "../components/sections/hero";
 //import Footer from "../components/footer";
 // import ContactsSection from "../components/sections/contacts";
 
-
 function HomePage() {
   return (
     <>
@@ -24,7 +23,9 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
-          <GallerySection />
+        </div>
+        <GallerySection />
+        <div className="max-w-5xl mx-auto">
           <ContactsSection />
         </div>
         <Footer />
