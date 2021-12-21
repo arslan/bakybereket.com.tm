@@ -1,9 +1,10 @@
-import Head from 'next/head'
-import Header from '../components/sections/header'
-import Footer from '../components/footer'
-import ContactsSection from '../components/sections/contacts'
-import Hero from '../components/sections/hero'
+import Head from "next/head";
+import Header from "../components/sections/header";
+import Hero from "../components/sections/hero";
+import ContactsSection from "../components/sections/contacts";
+import Footer from "../components/footer";
 import About from '../components/sections/about'
+
 
 function HomePage() {
   return (
