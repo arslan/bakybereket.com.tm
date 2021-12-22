@@ -9,13 +9,13 @@ import Image from "next/image";
 SwiperCore.use([Pagination, Navigation, Autoplay]);
 
 const images = [
-  { source: "/gallery/1.png" },
-  { source: "/gallery/2.png" },
-  { source: "/gallery/3.png" },
-  { source: "/gallery/4.png" },
-  { source: "/gallery/5.png" },
-  { source: "/gallery/6.png" },
-  { source: "/gallery/1.png" },
+  { source: "/gallery/1.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/2.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/3.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/4.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/5.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/6.png", title: "", description: "", address: "", client: "", project_duration: "" },
+  { source: "/gallery/1.png", title: "", description: "", address: "", client: "", project_duration: "" },
 ];
 
 function Carousel() {
@@ -45,7 +45,7 @@ function Carousel() {
         {images.map(({ source }) => {
           return (
             <SwiperSlide key={source} className="w-4/6">
-              <h1 className="z-10 ml-5 my-2">Test</h1>
+              <h1 className="z-10 ml-4 my-2">Test</h1>
               <div className="h-[22rem] relative flex">
                 <div className="bg-light-blue w-1"></div>
                 <div className="w-3"></div>
@@ -53,7 +53,7 @@ function Carousel() {
                   <Image src={source} layout="fill" objectFit="cover" />
                 </div>
               </div>
-              <p className="pt-4 ml-2 mb-16">
+              <p className="pt-4 ml-4 mb-16">
                 Aliqua tempor commodo cillum eu nulla ea. Exercitation
                 consectetur nostrud occaecat velit irure consequat ut dolor et
                 aliquip. Laboris qui aute fugiat aute aliqua ex Lorem laboris.
