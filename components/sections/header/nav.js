@@ -1,14 +1,14 @@
 const navigation = [
-  { name: "Home", href: "#home" },
-  { name: "Projects", href: "#projects" },
-  { name: "About", href: "#about" },
-  { name: "Contacts", href: "#contacts" },
+  { name: "Главная", href: "#home" },
+  { name: "Проекты", href: "#projects" },
+  { name: "О Нас", href: "#about" },
+  { name: "Контакты", href: "#contacts" },
 ];
 
 function Nav(props) {
   return (
     <div {...props}>
-      <ul className="flex justify-end mr-6">
+      <ul className="flex justify-end mr-6 font-semibold">
         {navigation.map(({ name, href }) => {
           return (
             <li className="mx-4" key={name}>

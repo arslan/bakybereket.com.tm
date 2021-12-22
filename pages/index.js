@@ -1,6 +1,6 @@
+import About from '../components/sections/about'
 import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
-import GallerySection from "../components/gallery";
 import Head from "next/head";
 import Header from "../components/sections/header";
 import Hero from "../components/sections/hero";
@@ -23,15 +23,14 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
-        </div>
-        <GallerySection />
-        <div className="max-w-5xl mx-auto">
+
+          <About />
           <ContactsSection />
         </div>
         <Footer />
       </body>
     </>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

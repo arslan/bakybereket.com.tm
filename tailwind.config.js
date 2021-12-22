@@ -15,6 +15,10 @@ module.exports = {
       black: '#000000',
       white: '#FFFFFF',
       red: '#FF0000',
+      'form-rgba': 'rgba(0, 0, 0, 0)',
+    },
+    backgroundSize: {
+      '46%': '46%',
     },
     container: {
       padding: {},

@@ -11,7 +11,7 @@ function Hero() {
       <Background />
       <div className="flex">
         <h1 className="flex-none w-96 font-black text-3xl my-auto py-48 text-dark-grey">
-          CONSTRUCTION AND LANDSCAPING
+          СТРОИТЕЛЬСТВО И ОБУСТРОЙСТВО
         </h1>
         <div className="flex grow relative">
           <Carousel />
