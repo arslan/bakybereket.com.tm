@@ -21,7 +21,7 @@ const images = [
 function Carousel() {
   return (
     <>
-      <div className="absolute bottom-20 z-10 -left-36">
+      <div className="absolute bottom-2 z-10 right-2">
         <button as="div" className="prev-button-hero btn">
           <ChevronLeftIcon className="h-5 w-5 text-white" />
         </button>
@@ -31,7 +31,7 @@ function Carousel() {
       </div>
       <Swiper
         slidesPerView={"auto"}
-        spaceBetween={6}
+        spaceBetween={20}
         autoplay={{ delay: 4000 }}
         navigation={{
           nextEl: ".next-button-hero",
@@ -40,22 +40,20 @@ function Carousel() {
         pagination={{
           clickable: true,
         }}
-        className="my-12 w-full"
+        className=""
       >
         {images.map(({ source }) => {
           return (
-            <SwiperSlide key={source} className="w-5/6 flex">
-              <h1 className="z-10">Test</h1>
-              <div className="">
-                <Image
-                  src={source}
-                  layout="responsive"
-                  width={100}
-                  height={100}
-                  objectFit="cover"
-                />
+            <SwiperSlide key={source} className="w-4/6">
+              <h1 className="z-10 ml-5 my-2">Test</h1>
+              <div className="h-[22rem] relative flex">
+                <div className="bg-light-blue w-1"></div>
+                <div className="w-3"></div>
+                <div className="h-full w-full relative">
+                  <Image src={source} layout="fill" objectFit="cover" />
+                </div>
               </div>
-              <p>
+              <p className="pt-4 ml-2 mb-16">
                 Aliqua tempor commodo cillum eu nulla ea. Exercitation
                 consectetur nostrud occaecat velit irure consequat ut dolor et
                 aliquip. Laboris qui aute fugiat aute aliqua ex Lorem laboris.
@@ -65,7 +63,6 @@ function Carousel() {
           );
         })}
       </Swiper>
-      <div className="w-12 bg-light-blue/90 bg-clip-content h-full right-0 absolute z-10 py-12 pointer-events-none"></div>
     </>
   );
 }

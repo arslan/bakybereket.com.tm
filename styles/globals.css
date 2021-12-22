@@ -33,3 +33,7 @@ h2 {
 .circle {
     @apply w-4 h-4 bg-light-blue/50 rounded-full absolute
 }
+
+.swiper-pagination-bullet-active {
+    @apply bg-light-blue
+}

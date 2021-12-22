@@ -22,8 +22,8 @@ function HomePage() {
         <div className="max-w-5xl mx-auto">
           <Hero />
 
-          <About />
           <Projects />
+          <About />
           <ContactsSection />
         </div>
         <Footer />
