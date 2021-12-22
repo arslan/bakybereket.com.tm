@@ -61,12 +61,12 @@ function LightboxGrid() {
       <div className="grid grid-cols-5 gap-0">
         {images.map(({ source }) => {
           return (
-            <a href={source} key={source.id} className="text-[0]">
+            <a href={source} key={source.id} className="text-[0] max-w-fit">
               <Image
                 src={source}
                 alt=""
-                width={300}
-                height={180}
+                width={1200}
+                height={800}
                 objectFit="cover"
               />
             </a>
