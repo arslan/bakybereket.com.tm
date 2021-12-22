@@ -1,7 +1,7 @@
-import About from '../components/sections/about'
+import About from "../components/sections/about";
 import ContactsSection from "../components/sections/contacts";
 import Footer from "../components/footer";
-import GallerySection from "../components/gallery";
+import GallerySection from "../components/Gallery";
 import Head from "next/head";
 import Header from "../components/sections/header";
 import Hero from "../components/sections/hero";
@@ -25,15 +25,19 @@ function HomePage() {
         <Header />
         <div className="max-w-5xl mx-auto">
           <Hero />
-          <Projects />
           <About />
+        </div>
+        <div className="md:max-w-5xl md:mx-auto">
           <GallerySection />
+        </div>
+
+        <div className="max-w-5xl mx-auto">
           <ContactsSection />
         </div>
         <Footer />
       </body>
     </>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
