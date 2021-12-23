@@ -1,10 +1,11 @@
 import "../styles/globals.css";
 import SimpleReactLightbox from "simple-react-lightbox";
+import { appWithTranslation } from 'next-i18next'
 
-export default function MyApp({ Component, pageProps }) {
-  return (
-    <SimpleReactLightbox>
-      <Component {...pageProps} />
-    </SimpleReactLightbox>
-  );
+function MyApp({ Component, pageProps }) {
+    return <SimpleReactLightbox>
+        <Component {...pageProps} />
+    </SimpleReactLightbox>;
 }
+
+export default appWithTranslation(MyApp)

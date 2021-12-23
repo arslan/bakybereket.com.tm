@@ -6,6 +6,7 @@ import Head from "next/head";
 import Header from "../components/sections/header";
 import Hero from "../components/sections/hero";
 import Projects from "../components/sections/projects";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 //import Footer from "../components/footer";
 // import ContactsSection from "../components/sections/contacts";
@@ -41,4 +42,10 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common']),
+  },
+})
+
+export default HomePage

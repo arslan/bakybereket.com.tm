@@ -49,7 +49,7 @@ function Language() {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items className="absolute right-0 w-32 mt-2 origin-top-right bg-white divide-y divide-light-grey shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-20">
-          {flags.map(({longName, iconPath}) => {
+          {flags.map(({language, longName, iconPath}) => {
             return (
               <Menu.Item key={longName}>
                 {({ active }) => (
@@ -63,7 +63,7 @@ function Language() {
                     </div>
                     <Link
                       href="/"
-                      locale="ru"
+                      locale={language}
                       className={`${active && "bg-dark-blue"}`}
                     >
                       <a>{longName}</a>
