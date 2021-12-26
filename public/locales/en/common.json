@@ -8,87 +8,115 @@
   "hero": {
     "heading": "Construction and Landscaping",
     "hero_texts": {
-      "first": { "heading": "1", "text": "1" },
-      "second": { "heading": "1", "text": "1" },
-      "third": { "heading": "1", "text": "1" }
+      "first": {
+        "heading": "Construction of (non-) residential premises",
+        "text": "IE \"Baky Bereket\" performs a full cycle of works on the construction of residential premises, as well as industrial, civil and agricultural facilities."
+      },
+      "second": {
+        "heading": "Reconstruction",
+        "text": "Our company has extensive experience in superstructure, rebuilding, expansion of capital construction projects, and we also specialize in the replacement and restoration of load-bearing building structures."
+      },
+      "third": {
+        "heading": "Development",
+        "text": "Our team has the resources and experience to implement all stages of building design without involving subcontractors. Trusting us, you save time and get a guarantee of an impeccable result and meeting deadlines."
+      }
     },
     "scroll": "Scroll Down"
   },
   "projects": {
-    "heading": "ВЫПОЛНЕННЫЕ ПРОЕКТЫ",
-    "text": "Наша компания имеет широкий опыт в строительстве объектов и сооружений, являясь одними из лидеров строительного рынка Туркменистана, мы гарантируем качество надежность и современность.",
+    "heading": "Completed Projecs",
+    "text": "Our company has a wide experience in the construction of facilities and structures, being among the leaders of the construction market of Turkmenistan, we guarantee quality, reliability and modernity.",
     "carousel": {
       "1st": {
-        "title": "Строительство коммерческого комплекса «Рысгал»",
-        "text": "Строительство коммерческого комплекса «Рысгал», в который входят АКБ «Рысгал», 2 торговый центра, 8-ми этажный жилой дом, вместительностью 84 квартиры.",
+        "title": "Commercial complex \"Rysgal\"",
+        "text": "Construction of a commercial complex \"Rysgal\", which includes JSCB \"Rysgal\", 2 shopping centers and an 8-storey residential building, with a capacity of 84 apartments.",
         "location": {
-          "heading": "Место построения: ",
-          "text": "Перекресток ул. Анкара и ул. Огузхан, г. Ашхабад, Туркменистан"
+          "heading": "Location: ",
+          "text": "Ankara str. and Oguzhan str. intersection, Ashgabat, Turkmenistan."
         },
         "client": {
-          "heading": "Заказчик: ",
-          "text": "Союз промышленников и предпринимателей Туркменистана."
+          "heading": "Client: ",
+          "text": "Union Of Industrialists And Entrepreneurs Of Turkmenistan."
         },
         "dates": {
-          "heading": "Время начала и окончания строительных работ: ",
-          "text": "2015 — 2017 гг."
+          "heading": "The start and completion of construction works: ",
+          "text": "2015 — 2017"
         }
       },
       "2nd": {
-        "title": "Строительство коммерческого комплекса «Рысгал»",
-        "text": "Строительство коммерческого комплекса «Рысгал», в который входят АКБ «Рысгал», 2 торговый центра, 8-ми этажный жилой дом, вместительностью 84 квартиры.",
+        "title": "Kindergarten № 9",
+        "text": "Demolition of Kindergarten № 3 and construction of Kindergarten № 9 at its place with a capacity of 450 children.",
         "location": {
-          "heading": "Место построения: ",
-          "text": "Перекресток ул. Анкара и ул. Огузхан, г. Ашхабад, Туркменистан"
+          "heading": "Location: ",
+          "text": "Kaka city, Akhal velayat, Turkmenistan."
         },
         "client": {
-          "heading": "Заказчик: ",
-          "text": "Союз промышленников и предпринимателей Туркменистана."
+          "heading": "Client: ",
+          "text": "Department of Education of Kaka district, Department of Education of Akhal velayat."
         },
         "dates": {
-          "heading": "Время начала и окончания строительных работ: ",
-          "text": "2015 — 2017 гг."
+          "heading": "The start and completion of construction works: ",
+          "text": "2017 – 2018"
         }
       },
       "3rd": {
-        "title": "Строительство коммерческого комплекса «Рысгал»",
-        "text": "Строительство коммерческого комплекса «Рысгал», в который входят АКБ «Рысгал», 2 торговый центра, 8-ми этажный жилой дом, вместительностью 84 квартиры.",
+        "title": "Construction and installation works",
+        "text": "Construction and installation works for ES \"Ak Depe Hyzmat\" in the residential complex \"Gypjak\", Ruhabat district, Ashgabat, as well as the installation of technological equipment for \"Milk and Fermented Milk Products\" plant.",
         "location": {
-          "heading": "Место построения: ",
-          "text": "Перекресток ул. Анкара и ул. Огузхан, г. Ашхабад, Туркменистан"
+          "heading": "Location: ",
+          "text": "Ruhabat district, Akhal velayat, Turkmenistan."
         },
         "client": {
-          "heading": "Заказчик: ",
-          "text": "Союз промышленников и предпринимателей Туркменистана."
+          "heading": "Client: ",
+          "text": "ES \"Ak Depe Hyzmat\""
         },
         "dates": {
-          "heading": "Время начала и окончания строительных работ: ",
-          "text": "2015 — 2017 гг."
+          "heading": "The start and completion of construction works: ",
+          "text": "2017 – 2018"
         }
       },
       "4th": {
-        "title": "Строительство коммерческого комплекса «Рысгал»",
-        "text": "Строительство коммерческого комплекса «Рысгал», в который входят АКБ «Рысгал», 2 торговый центра, 8-ми этажный жилой дом, вместительностью 84 квартиры.",
+        "title": "Construction of a Greenhouse",
+        "text": "Construction of a greenhouse on a land plot belonging to M. Sopyev Agricultural Joint-Stock Company of Ak Bugdai district, Akhal velayat with an area of 4 hectares for growing vegetables.",
         "location": {
-          "heading": "Место построения: ",
-          "text": "Перекресток ул. Анкара и ул. Огузхан, г. Ашхабад, Туркменистан"
+          "heading": "Location: ",
+          "text": "M. Sopyev Agricultural Joint-Stock Company of Ak Bugdai district, Akhal velayat, Turkmenistan."
         },
         "client": {
-          "heading": "Заказчик: ",
-          "text": "Союз промышленников и предпринимателей Туркменистана."
+          "heading": "Client: ",
+          "text": "Construction was carried out for the own needs of our company."
         },
         "dates": {
-          "heading": "Время начала и окончания строительных работ: ",
-          "text": "2015 — 2017 гг."
+          "heading": "The start and completion of construction works: ",
+          "text": "2019"
+        }
+      },
+      "5th": {
+        "title": "Construction of a Greenhouse",
+        "text": "Individual Enterprise \"Baky Bereket\" is considered by the Baharden District Working Group, Akhal Velayat for the construction of modern greenhouses for growing vegetables on 9 hectares plot.",
+        "location": {
+          "heading": "Location: ",
+          "text": "Farmers Association of Archman, Baharden district, Akhal velayat, Turkmenistan."
+        },
+        "client": {
+          "heading": "Client: ",
+          "text": "Baharden District Working Group, Akhal Velayat, Turkmenistan."
+        },
+        "dates": {
+          "heading": "The start and completion of construction works: ",
+          "text": "-"
         }
       }
     }
   },
   "about": {
     "heading_about": "About Us",
-    "text": "Individual Enterprise Baky Bereket...",
+    "text": "Individual enterprise \"Baky Bereket\" was founded in 2014 and is one of the leading companies in Turkmenistan, specializing in the construction of housing complexes, commercial real estate, non-residential premises, as well as design and development of buildings.",
     "heading_advantages": "Our Advantages",
     "advantages": { "1st": "Safety", "2nd": "Reliable", "3rd": "Modern" }
+  },
+  "gallery": {
+    "heading": "Our Works"
   },
   "contacts": {
     "heading": "Our Contacts",
@@ -97,8 +125,15 @@
     "tel": "Tel: ",
     "fax": "Fax: ",
     "email": "E-mail: ",
-    "form_heading": "Contact Us",
-    "form_text": "Send us your request by filling out and the form below."
+    "form": {
+      "heading": "Contact Us",
+      "text": "Send us your request by filling out and the form below.",
+      "name": "Full Name",
+      "email": "E-mail",
+      "tel": "Telephone",
+      "tick": "I agree to receive the reply and other e-mails to my mailbox.",
+      "submit_button": "Submit"
+    }
   },
   "location": {
     "heading": "Our Location"

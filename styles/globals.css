@@ -22,6 +22,8 @@ h2 {
     @apply text-dark-grey text-lg font-bold uppercase h-20
 }
 
+.hero-texts > div > h2
+
 h1, h2, h3 {
     @apply uppercase
 }

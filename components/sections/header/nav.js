@@ -1,24 +1,26 @@
-const navigation = [
-  { name: "Главная", href: "#home" },
-  { name: "Проекты", href: "#projects" },
-  { name: "О Нас", href: "#about" },
-  { name: "Контакты", href: "#contacts" },
-];
+import { useTranslation } from 'next-i18next'
 
 function Nav(props) {
+  const { t } = useTranslation('common')
+  const navigation = [
+    { name: 'header.home', href: '#home' },
+    { name: 'header.projects', href: '#projects' },
+    { name: 'header.about', href: '#about' },
+    { name: 'header.contacts', href: '#contacts' },
+  ]
   return (
     <div {...props}>
-      <ul className="flex justify-end mr-6 font-semibold">
+      <ul className="flex justify-end mr-6">
         {navigation.map(({ name, href }) => {
           return (
             <li className="mx-4" key={name}>
-              <a href={href}>{name}</a>
+              <a href={href}>{t(name)}</a>
             </li>
-          );
+          )
         })}
       </ul>
     </div>
-  );
+  )
 }
 
-export default Nav;
+export default Nav

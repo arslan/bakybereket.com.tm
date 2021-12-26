@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { useTranslation } from 'next-i18next'
 
 export default function Form() {
   const {
@@ -22,6 +23,7 @@ export default function Form() {
     })
   }
 
+  const { t } = useTranslation('common')
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
@@ -30,19 +32,19 @@ export default function Form() {
       <input
         className="bg-form-rgba mt-5 border-b-2 outline-none"
         type="text"
-        placeholder="name"
+        placeholder={t('contacts.form.name')}
         {...register('name', { required: true, maxLength: 80 })}
       />
       <input
         className="bg-form-rgba mt-5 border-b-2 outline-none"
         type="text"
-        placeholder="Email"
+        placeholder={t('contacts.form.email')}
         {...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
       />
       <input
         className="bg-form-rgba mt-5 border-b-2 outline-none"
         type="tel"
-        placeholder="Number"
+        placeholder={t('contacts.form.tel')}
         {...register('Number', {
           required: true,
           minLength: 6,
@@ -55,18 +57,14 @@ export default function Form() {
         {...register('Message', {})}
       />
       <div className="flex items-center justify-start -mt-5">
-        <input
-          className="w-4 h-4 mb-4"
-          type="checkbox"
-          placeholder="NDA"
-          {...register('NDA')}
-        />
+        <input className="w-4 h-4 mb-4" type="checkbox" {...register('NDA')} />
         <p className="pr-6 pl-2 text-left not-italic w-[50%] mt-9 text-xs font-semibold h-20 ">
-          Я хочу защитить свои данные, подписав NDA.
+          {t('contacts.form.tick')}
         </p>
         <div className="mb-4 ml-11">
           <input
             type="submit"
+            value={t('contacts.form.submit_button')}
             className=" text-center bg-light-blue rounded-none shadow-xl px-10 py-0 min-w-min min-h-min h-10 font-normal text-xl text-white"
           />
         </div>

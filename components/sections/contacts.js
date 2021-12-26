@@ -6,10 +6,14 @@ import Form from './contacts/form'
 import underline1 from '../../public/contactUnderline/underline1.svg'
 import underline2 from '../../public/contactUnderline/underline2.svg'
 
+import { useTranslation } from 'next-i18next'
+
 //
 //absolute -z-10 w-2/4 h-full bg-clip-content bg-contain bg-no-repeat bg-center ml
 //mx-60 mb-32 mt-40
 const ContactsSection = () => {
+  const { t } = useTranslation('common')
+
   return (
     <div id="contacts" className="  text-dark-grey">
       <div
@@ -17,21 +21,20 @@ const ContactsSection = () => {
         style={{ backgroundImage: "url('/bgSection4.svg')" }}
       >
         <div className="flex flex-col  mr-12">
-          <h2 className="not-italic   pb-16 min-h-min">Наши контакты</h2>
+          <h2 className="not-italic pb-16 min-h-min">
+            {t('contacts.heading')}
+          </h2>
           <p className="not-italic font-normal  max-w-[512px]  min-h-min">
-            ИП «Бакы Берекет» Ашхабад, Копетдагский район Анкара (1946 г.) улица
-            дом № 23
+            {t('contacts.company')} <br /> {t('contacts.address')}{' '}
             <Image src={underline1} />
           </p>
           <div className="pt-1 not-italic font-normal  min-h-min">
-            <p>Tel: +99312964862</p>
-            <p>Fax: +99312964861</p>
+            <p>{t('contacts.tel')}</p>
+            <p>{t('contacts.fax')}</p>
             <Image src={underline2} />
           </div>
 
-          <p className="pt-5 not-italic font-normal">
-            E.mail: bakybereket@gmail.com
-          </p>
+          <p className="pt-5 not-italic font-normal">{t('contacts.email')} </p>
           <div className="flex  items-center justify-start text-white space-x-5 pt-6">
             <a href="https://">
               <button className="flex items-center justify-between transition duration-300 ease-out bg-light-blue rounded-none shadow-xl px-3 py-2 min-w-min min-h-min text-xs hover:ease-in hover:-translate-y-1">
@@ -54,17 +57,15 @@ const ContactsSection = () => {
           </div>
         </div>
         <div className="flex flex-col justify-start lnot-italic ml-12 h-1 ">
-          <h2>Cвяжитесь с нами</h2>
-          <p className="mt-0 font-semibold ">
-            Оставьте ваши данные чтобы мы могли с вами связаться
-          </p>
+          <h2>{t('contacts.form.heading')}</h2>
+          <p className="mt-0 font-semibold ">{t('contacts.form.text')}</p>
           <div>
             <Form />
           </div>
         </div>
       </div>
       <p className="max-w-5xl m-auto not-italic font-semibold text-xl mt-40">
-        Наше место положение
+        {t('location.heading')}
       </p>
       <iframe
         className="flex max-w-5xl m-auto justify-center  mb-40 mt-7"

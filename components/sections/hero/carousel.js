@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
+import {v4 as uuid_v4} from 'uuid'
 
 
 // import Swiper core and required modules
@@ -45,7 +46,7 @@ function Carousel() {
       >
         {images.map(({ source }) => {
           return (
-            <SwiperSlide key={source} className="w-5/6">
+            <SwiperSlide key={uuid_v4()} className="w-5/6">
               <Image src={source} layout="fill" objectFit="cover"></Image>
             </SwiperSlide>
           );
