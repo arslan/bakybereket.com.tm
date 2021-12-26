@@ -6,11 +6,13 @@
 @import 'swiper/css/pagination';
 @import 'swiper/css/navigation';
 
-.prev-button-hero {
+.prev-button-hero,
+.button-dialog-prev {
   @apply bg-light-blue;
 }
 
-.next-button-hero {
+.next-button-hero,
+.button-dialog-next {
   @apply bg-dark-grey ml-1;
 }
 

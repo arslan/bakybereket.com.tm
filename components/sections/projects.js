@@ -1,8 +1,6 @@
 import Carousel from './projects/carousel'
 import Background from './projects/background'
 import { useTranslation } from 'next-i18next'
-import MyDialog from './projects/dialog'
-import MyModal from './projects/headless_dialog'
 
 function Projects() {
   const { t } = useTranslation('common')
