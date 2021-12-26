@@ -65,7 +65,6 @@ function LightboxGrid() {
             <div key={uuid_v4()} className="text-[0]">
               <a href={source}>
                 <Image
-                  
                   src={source}
                   alt=""
                   width={1200}

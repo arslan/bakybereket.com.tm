@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
 import { useTranslation } from 'next-i18next'
 
-
 // import Swiper core and required modules
 import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper'
 import Image from 'next/image'

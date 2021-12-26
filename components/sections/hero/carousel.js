@@ -1,24 +1,23 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
-import {v4 as uuid_v4} from 'uuid'
-
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
+import { v4 as uuid_v4 } from 'uuid'
 
 // import Swiper core and required modules
-import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
-import Image from "next/image";
+import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper'
+import Image from 'next/image'
 
 // install Swiper modules
-SwiperCore.use([Pagination, Navigation, Autoplay]);
+SwiperCore.use([Pagination, Navigation, Autoplay])
 
 const images = [
-  { source: "/gallery/1.png" },
-  { source: "/gallery/2.png" },
-  { source: "/gallery/3.png" },
-  { source: "/gallery/4.png" },
-  { source: "/gallery/5.png" },
-  { source: "/gallery/6.png" },
-  { source: "/gallery/1.png" },
-];
+  { source: '/gallery/1.png' },
+  { source: '/gallery/2.png' },
+  { source: '/gallery/3.png' },
+  { source: '/gallery/4.png' },
+  { source: '/gallery/5.png' },
+  { source: '/gallery/6.png' },
+  { source: '/gallery/1.png' },
+]
 
 function Carousel() {
   return (
@@ -32,12 +31,12 @@ function Carousel() {
         </button>
       </div>
       <Swiper
-        slidesPerView={"auto"}
+        slidesPerView={'auto'}
         spaceBetween={6}
         autoplay={{ delay: 4000 }}
         navigation={{
-          nextEl: ".next-button-hero",
-          prevEl: ".prev-button-hero",
+          nextEl: '.next-button-hero',
+          prevEl: '.prev-button-hero',
         }}
         pagination={{
           clickable: true,
@@ -49,12 +48,12 @@ function Carousel() {
             <SwiperSlide key={uuid_v4()} className="w-5/6">
               <Image src={source} layout="fill" objectFit="cover"></Image>
             </SwiperSlide>
-          );
+          )
         })}
       </Swiper>
       <div className="w-12 bg-light-blue/90 bg-clip-content h-full right-0 absolute z-10 py-12 pointer-events-none"></div>
     </>
-  );
+  )
 }
 
-export default Carousel;
+export default Carousel

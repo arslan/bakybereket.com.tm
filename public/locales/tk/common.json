@@ -1,142 +1,145 @@
 {
-    "header": {
-      "home": "Başy",
-      "projects": "Taslamalar",
-      "about": "Biz Barada",
-      "contacts": "Habarlaşmak"
+  "header": {
+    "home": "Başy",
+    "projects": "Taslamalar",
+    "about": "Biz Barada",
+    "contacts": "Habarlaşmak"
+  },
+  "hero": {
+    "heading": "Gurluşyk we abadanlaşdyrma",
+    "hero_texts": {
+      "first": {
+        "heading": "Ýaşalýan we ýaşalmaýan jaýlar",
+        "text": "\"Baky Bereket\" hususy kärhanasy ýaşaýyş jaýlary, şeýle hem senagat, raýat we oba hojalyk maksatly desgalary gurmak boýunça işleriň doly tapgyryny ýerine ýetirýär."
+      },
+      "second": {
+        "heading": "Durkuny täzelemek",
+        "text": "Kompaniýamyzyň düýpli gurluşyk taslamalarynyň üstünden gurmak, täzeden gurmak, giňeltmek boýunça uly tejribesi bar, şeýle hem göteriji gurluşyk düzütlerini çalyşmak we dikeltmek boýunça işlere ýöriteleşen kompaniýa bolup durýarys."
+      },
+      "third": {
+        "heading": "Taslamalaşdyrmak",
+        "text": "Kömekçi potratçylary işe çekmezden, binalary taslamalaşdyrmagyň ähli tapgyrlaryny amala aşyrmak üçin toparymyzyň serişdeleri we tejribesi bar. Bize ynanyp, Siz wagtyňyzy tygşytlaýarsyňyz hem-de birkemsiz netijäniň we möhletleri berjaý etmegiň kepilligini alýarsyňyz."
+      }
     },
-    "hero": {
-      "heading": "Gurluşyk we abadanlaşdyrma",
-      "hero_texts": {
-        "first": {
-          "heading": "Ýaşalýan we ýaşalmaýan jaýlar",
-          "text": "\"Baky Bereket\" hususy kärhanasy ýaşaýyş jaýlary, şeýle hem senagat, raýat we oba hojalyk maksatly desgalary gurmak boýunça işleriň doly tapgyryny ýerine ýetirýär."
+    "scroll": "AŞAK AÝLA"
+  },
+  "projects": {
+    "heading": "Ýerine ýetirilen taslamalar",
+    "text": "Biziň kompaniýamyz desgalaryň we gurluşlaryň gurluşygynda uly tejribä eýe bolup, Türkmenistanyň gurluşyk bazarynda öňdebaryjy kärhanalaryndan biri bolup durýar, biz işimiziň hiline, ygtybarlylygyna we döwrebaplygyna kepil geçýäris.",
+    "carousel": {
+      "1st": {
+        "title": "\"Rysgal\" Täjirçilik Toplumy",
+        "text": "\"Rysgal\" Paýdarlar Täjirçilik Banky, 2 söwda merkezi, 84 öýli 8 gatly ýaşaýyş jaýy degişli bolan “Rysgal” täjirçilik toplumynyň gurluşygyny amala aşyrmak.",
+        "location": {
+          "heading": "Gurluşyk ýeri: ",
+          "text": "Türkmenistan, Aşgabat şäheri, Ankara we Oguzhan köçeleriniň çatrygy."
         },
-        "second": {
-          "heading": "Durkuny täzelemek",
-          "text": "Kompaniýamyzyň düýpli gurluşyk taslamalarynyň üstünden gurmak, täzeden gurmak, giňeltmek boýunça uly tejribesi bar, şeýle hem göteriji gurluşyk düzütlerini çalyşmak we dikeltmek boýunça işlere ýöriteleşen kompaniýa bolup durýarys."
+        "client": {
+          "heading": "Buýrujy: ",
+          "text": "Türkmenistanyň Senagatçylar we Telekeçiler Birleşmesi."
         },
-        "third": {
-          "heading": "Taslamalaşdyrmak",
-          "text": "Kömekçi potratçylary işe çekmezden, binalary taslamalaşdyrmagyň ähli tapgyrlaryny amala aşyrmak üçin toparymyzyň serişdeleri we tejribesi bar. Bize ynanyp, Siz wagtyňyzy tygşytlaýarsyňyz hem-de birkemsiz netijäniň we möhletleri berjaý etmegiň kepilligini alýarsyňyz."
+        "dates": {
+          "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
+          "text": "2015 — 2017 ý.ý."
         }
       },
-      "scroll": "AŞAK AÝLA"
-    },
-    "projects": {
-      "heading": "Ýerine ýetirilen taslamalar",
-      "text": "Biziň kompaniýamyz desgalaryň we gurluşlaryň gurluşygynda uly tejribä eýe bolup, Türkmenistanyň gurluşyk bazarynda öňdebaryjy kärhanalaryndan biri bolup durýar, biz işimiziň hiline, ygtybarlylygyna we döwrebaplygyna kepil geçýäris.",
-      "carousel": {
-        "1st": {
-          "title": "\"Rysgal\" Täjirçilik Toplumy",
-          "text": "\"Rysgal\" Paýdarlar Täjirçilik Banky, 2 söwda merkezi, 84 öýli 8 gatly ýaşaýyş jaýy degişli bolan “Rysgal” täjirçilik toplumynyň gurluşygyny amala aşyrmak.",
-          "location": {
-            "heading": "Gurluşyk ýeri: ",
-            "text": "Türkmenistan, Aşgabat şäheri, Ankara we Oguzhan köçeleriniň çatrygy."
-          },
-          "client": {
-            "heading": "Buýrujy: ",
-            "text": "Türkmenistanyň Senagatçylar we Telekeçiler Birleşmesi."
-          },
-          "dates": {
-            "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
-            "text": "2015 — 2017 ý.ý."
-          }
+      "2nd": {
+        "title": "9-njy Çagalar Bagy",
+        "text": "3-nji çagalar bagyny ýykmak we onuň ýerine 450 orunlyk 9-njy çagalar bagynyň gurluşygyny amala aşyrmak.",
+        "location": {
+          "heading": "Gurluşyk ýeri: ",
+          "text": "Türkmenistan, Ahal welaýaty, Kaka şäheri."
         },
-        "2nd": {
-          "title": "9-njy Çagalar Bagy",
-          "text": "3-nji çagalar bagyny ýykmak we onuň ýerine 450 orunlyk 9-njy çagalar bagynyň gurluşygyny amala aşyrmak.",
-          "location": {
-            "heading": "Gurluşyk ýeri: ",
-            "text": "Türkmenistan, Ahal welaýaty, Kaka şäheri."
-          },
-          "client": {
-            "heading": "Buýrujy: ",
-            "text": "Kaka etrabynyň Bilim bölümi, Ahal welaýatyň Bilim müdirligi."
-          },
-          "dates": {
-            "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
-            "text": "2017 – 2018 ý.ý."
-          }
+        "client": {
+          "heading": "Buýrujy: ",
+          "text": "Kaka etrabynyň Bilim bölümi, Ahal welaýatyň Bilim müdirligi."
         },
-        "3rd": {
-          "title": "Gurluşyk we Gurnama Işler",
-          "text": "Aşgabat şäheriniň Ruhabat etrabynyň \"Gypjak\" ýaşaýyş toplumynda \"Ak Depe Hyzmat\" Hojalyk Jemgyýetiniň gurluşyk-gurnama işlerini, şeýle hem \"Süýt we süýt önümleri\" süýt kärhanasynyň tehnologiki enjamlaryny gurnamak işlerini amala aşyrmak.",
-          "location": {
-            "heading": "Gurluşyk ýeri: ",
-            "text": "Türkmenistan, Ahal welaýaty, Ruhabat etraby."
-          },
-          "client": {
-            "heading": "Buýrujy: ",
-            "text": "ES \"Ak Depe Hyzmat\""
-          },
-          "dates": {
-            "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
-            "text": "2017 – 2018 ý.ý."
-          }
+        "dates": {
+          "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
+          "text": "2017 – 2018 ý.ý."
+        }
+      },
+      "3rd": {
+        "title": "Gurluşyk we Gurnama Işler",
+        "text": "Aşgabat şäheriniň Ruhabat etrabynyň \"Gypjak\" ýaşaýyş toplumynda \"Ak Depe Hyzmat\" Hojalyk Jemgyýetiniň gurluşyk-gurnama işlerini, şeýle hem \"Süýt we süýt önümleri\" süýt kärhanasynyň tehnologiki enjamlaryny gurnamak işlerini amala aşyrmak.",
+        "location": {
+          "heading": "Gurluşyk ýeri: ",
+          "text": "Türkmenistan, Ahal welaýaty, Ruhabat etraby."
         },
-        "4th": {
-          "title": "Ýyladyşhanany gurmak",
-          "text": "Ahal welaýatynyň Ak Bugdaý etrabynyň M.Sopyýew adyndaky Oba hojalyk paýdarlar jemgyýetiniň 4 ga ýer böleginde gök önümleri ösdürip ýetişdirmek üçin ýyladyşhananyň gurluşygyny amala aşyrmak.",
-          "location": {
-            "heading": "Gurluşyk ýeri: ",
-            "text": "Ahal welaýatynyň Ak Bugdaý etrabynyň M.Sopyýew adyndaky Oba hojalyk paýdarlar jemgyýeti."
-          },
-          "client": {
-            "heading": "Buýrujy: ",
-            "text": "Gurluşyk kärhanamyzyň hususy hajatlary üçin amala aşyryldy."
-          },
-          "dates": {
-            "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
-            "text": "2019 ý."
-          }
+        "client": {
+          "heading": "Buýrujy: ",
+          "text": "ES \"Ak Depe Hyzmat\""
         },
-        "5th": {
-          "title": "Ýyladyşhanany gurmak",
-          "text": "\"Baky Bereket\" Hususy Kärhanasy tarapyndan Ahal welaýatynyň Bäherden etrabynyň Arçman daýhan birleşiginde gök önüm ösdürip ýetişdirmek üçin meýdany 9 gektara deň bolan döwrebap ýyladyşhananyň gurluşygyny amala aşyrmak meselesi Ahal welaýatynyň Bäherden etrabynyň iş topary tarapyndan seredilýär.",
-          "location": {
-            "heading": "Gurluşyk ýeri: ",
-            "text": "Ahal welaýatynyň Bäherden etrabynyň Arçman daýhan birleşiginde"
-          },
-          "client": {
-            "heading": "Buýrujy: ",
-            "text": "Ahal welaýatynyň Bäherden etrabynyň iş topary."
-          },
-          "dates": {
-            "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
-            "text": "-"
-          }
+        "dates": {
+          "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
+          "text": "2017 – 2018 ý.ý."
+        }
+      },
+      "4th": {
+        "title": "Ýyladyşhanany gurmak",
+        "text": "Ahal welaýatynyň Ak Bugdaý etrabynyň M.Sopyýew adyndaky Oba hojalyk paýdarlar jemgyýetiniň 4 ga ýer böleginde gök önümleri ösdürip ýetişdirmek üçin ýyladyşhananyň gurluşygyny amala aşyrmak.",
+        "location": {
+          "heading": "Gurluşyk ýeri: ",
+          "text": "Ahal welaýatynyň Ak Bugdaý etrabynyň M.Sopyýew adyndaky Oba hojalyk paýdarlar jemgyýeti."
+        },
+        "client": {
+          "heading": "Buýrujy: ",
+          "text": "Gurluşyk kärhanamyzyň hususy hajatlary üçin amala aşyryldy."
+        },
+        "dates": {
+          "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
+          "text": "2019 ý."
+        }
+      },
+      "5th": {
+        "title": "Ýyladyşhanany gurmak",
+        "text": "\"Baky Bereket\" Hususy Kärhanasy tarapyndan Ahal welaýatynyň Bäherden etrabynyň Arçman daýhan birleşiginde gök önüm ösdürip ýetişdirmek üçin meýdany 9 gektara deň bolan döwrebap ýyladyşhananyň gurluşygyny amala aşyrmak meselesi Ahal welaýatynyň Bäherden etrabynyň iş topary tarapyndan seredilýär.",
+        "location": {
+          "heading": "Gurluşyk ýeri: ",
+          "text": "Ahal welaýatynyň Bäherden etrabynyň Arçman daýhan birleşiginde"
+        },
+        "client": {
+          "heading": "Buýrujy: ",
+          "text": "Ahal welaýatynyň Bäherden etrabynyň iş topary."
+        },
+        "dates": {
+          "heading": "Gurluşyk işleriniň başlanan we tamamlanan wagty: ",
+          "text": "-"
         }
       }
-    },
-    "about": {
-      "heading_about": "Biz Barada",
-      "text": "\"Baky Bereket\" Hususy Kärhanasy 2014-nji ýylda esaslandyryldy we Türkmenistanda ýaşaýyş jaý toplumlaryny, täjirçilik gozgalmaýan emlägi, ýaşalmaýan jaýlary gurmakda, şeýle hem binalary taslamalaşdyrmakda ýöriteleşen öňdebaryjy kompaniýalaryň biri bolup durýar.",
-      "heading_advantages": "Biziň Artykmaçlygymyz",
-      "advantages": { "1st": "Howpsuzlyk", "2nd": "Ygtybarlylyk", "3rd": "Döwrebaplyk" }
-    },
-    "gallery": {
-      "heading": "Bizin Işleremiz"
-    },
-    "contacts": {
-      "heading": "Salgymyz",
-      "company": "HK \"Baky Bereket\"",
-      "address": "Jaý 23, Ankara köçesi (1946), Aşgabat, Türkmenistan",
-      "tel": "Tel: ",
-      "fax": "Faks: ",
-      "email": "E-poçta: ",
-      "form": {
-        "heading": "Habarlaşmak",
-        "text": "Biz bilen habarlaşmak üçin aşakdaky blankany dolduryň.",
-        "name": "F.A.Aa.",
-        "email": "E-poçta",
-        "tel": "Telefon",
-        "tick": "Jogaplary we habar býulletenlerini e-poçta bilen almaga razy.",
-        "submit_button": "Ibermek"
-      }
-    },
-    "location": {
-      "heading": "Biziň Salgymyz"
     }
+  },
+  "about": {
+    "heading_about": "Biz Barada",
+    "text": "\"Baky Bereket\" Hususy Kärhanasy 2014-nji ýylda esaslandyryldy we Türkmenistanda ýaşaýyş jaý toplumlaryny, täjirçilik gozgalmaýan emlägi, ýaşalmaýan jaýlary gurmakda, şeýle hem binalary taslamalaşdyrmakda ýöriteleşen öňdebaryjy kompaniýalaryň biri bolup durýar.",
+    "heading_advantages": "Biziň Artykmaçlygymyz",
+    "advantages": {
+      "1st": "Howpsuzlyk",
+      "2nd": "Ygtybarlylyk",
+      "3rd": "Döwrebaplyk"
+    }
+  },
+  "gallery": {
+    "heading": "Bizin Işleremiz"
+  },
+  "contacts": {
+    "heading": "Salgymyz",
+    "company": "HK \"Baky Bereket\"",
+    "address": "Jaý 23, Ankara köçesi (1946), Aşgabat, Türkmenistan",
+    "tel": "Tel: ",
+    "fax": "Faks: ",
+    "email": "E-poçta: ",
+    "form": {
+      "heading": "Habarlaşmak",
+      "text": "Biz bilen habarlaşmak üçin aşakdaky blankany dolduryň.",
+      "name": "F.A.Aa.",
+      "email": "E-poçta",
+      "tel": "Telefon",
+      "tick": "Jogaplary we habar býulletenlerini e-poçta bilen almaga razy.",
+      "submit_button": "Ibermek"
+    }
+  },
+  "location": {
+    "heading": "Biziň Salgymyz"
   }
-  
+}
