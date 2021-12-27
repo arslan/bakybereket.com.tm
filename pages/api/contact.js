@@ -1,19 +1,21 @@
 export default async function (req, res) {
   const nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
-    host: 'smtp.ethereal.email',
-    port: 587,
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     tls: { rejectUnauthorized: false },
     auth: {
-      user: 'bart.prosacco38@ethereal.email',
-      pass: 'wZYwqeq5dahrAktnmx',
+      user: 'bakybereket@gmail.com',
+      pass: '20bakybereket15',
     },
   })
+  const nda = req.body.NDA ? 'ДА' : 'Нет'
   const message = {
-    from: `Email <bart.prosacco38@ethereal.email>`,
-    to: 'maksat.bek93@gmail.com',
+    // from: `Email <${req.body.Email}>`,
+    to: 'bakybereket@gmail.com',
     subject: 'Cвяжитесь с нами',
-    text: `Number <${req.body.Number}> \n Message <${req.body.Message}>`,
+    text: `Mail: ${req.body.Email} \nNumber: ${req.body.Number} \nMessage: ${req.body.Message} \nЯ согласен на получение ответа и рассылок на эл. почту: ${nda}`,
   }
   try {
     await transporter.sendMail(message, (err, info) => {
