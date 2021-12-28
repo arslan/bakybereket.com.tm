@@ -13,12 +13,12 @@ function Hero() {
     <div className="relative">
       <Background />
       <div className="flex">
-        <h1 className="flex-none w-96 font-black text-3xl my-auto py-48 text-dark-grey uppercase">
+        <h1 className="flex-none w-96 font-black text-3xl my-auto py-48 text-dark-grey uppercase mr-5">
           {t('hero.heading')}
         </h1>
         <div className="flex grow relative">
           {/* <Carousel /> */}
-          <Image className='object-scale-down h-48 w-96'
+          <Image className='object-scale-down h-48 w-[24rem]'
             src="/mainSliderImg1.jpg"
             alt="Picture of the author"
             width={550}
