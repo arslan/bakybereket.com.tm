@@ -35,7 +35,7 @@ function Language() {
   return (
     <Menu
       as="div"
-      className="relative inline-block text-right border-x-[3px] border-solid border-light-blue"
+      className="relative inline-block md:ml-0 ml-auto mr-5 border-x-[3px] border-solid border-light-blue"
     >
       <Menu.Button className="w-full h-max px-2 py-2 relative">
         <div className="flex justify-center">

@@ -5,9 +5,9 @@ const GallerySection = () => {
   const { t } = useTranslation('common')
   return (
     <div id='gallery' className="mb-20">
-      <h2 className="text-black font-bold text-lg text-center pb-8">
+      <h1 className="text-dark-grey font-bold text-2xl my-auto mb-16 md:mt-12 text-center uppercase">
         {t('gallery.heading')}
-      </h2>
+      </h1>
       {/* className="grid grid-cols-5 gap-2 mx-auto pb-10" */}
       <LightboxGrid />
     </div>

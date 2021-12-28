@@ -58,10 +58,10 @@ export default function Form() {
       />
       <div className="flex items-center justify-start -mt-5">
         <input className="w-4 h-4 mb-4" type="checkbox" {...register('NDA')} />
-        <p className="pr-6 pl-2 text-left not-italic w-[50%] mt-9 text-xs font-semibold h-20 ">
+        <p className="md:pr-6 pl-2 text-left not-italic w-[50%] mt-9 text-xs font-semibold h-20 ">
           {t('contacts.form.tick')}
         </p>
-        <div className="mb-4 ml-11">
+        <div className="mb-4 md:ml-11 ml-2">
           <input
             type="submit"
             value={t('contacts.form.submit_button')}

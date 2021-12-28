@@ -19,7 +19,7 @@ const images = [
 function LightboxGrid() {
   return (
     <SRLWrapper>
-      <div className="grid grid-cols-5 gap-0">
+      <div className="grid md:grid-cols-5 grid-cols-2 md:gap-0 gap-1">
         {images.map(({ source }) => {
           return (
             <div key={uuid_v4()} className="text-[0]">

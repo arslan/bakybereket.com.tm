@@ -42,7 +42,7 @@ function DialogSwiper(props) {
           setSwiper(s)
         }}
       >
-        <div className="absolute bottom-1 z-50 right-1">
+        <div className="absolute bottom-1 z-50 right-1 hidden md:inline">
           <button
             as="div"
             className="button-dialog-prev btn"

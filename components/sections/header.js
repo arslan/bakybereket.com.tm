@@ -5,10 +5,10 @@ import Nav from './header/nav'
 
 function Header() {
   return (
-    <div className="max-w-full py-2 shadow-lg mb-5">
-      <div className="flex max-w-5xl m-auto items-center">
+    <div className="py-2 shadow-lg mb-5">
+      <div className="flex md:max-w-5xl m-auto items-center">
         <Logo />
-        <Nav className="grow mr-4" />
+        <Nav className="grow mr-4 hidden lg:inline" />
         <MobileMenu />
         <Language />
       </div>

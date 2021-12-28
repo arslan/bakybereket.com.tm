@@ -138,7 +138,7 @@ function Carousel() {
 
   return (
     <>
-      <div className="absolute bottom-1 z-10 right-0">
+      <div className="absolute bottom-1 z-10 right-0 hidden md:inline">
         <button as="div" className="prev-button-hero btn">
           <ChevronLeftIcon className="h-5 w-5 text-white" />
         </button>
@@ -182,7 +182,7 @@ function Carousel() {
             return (
               <SwiperSlide as="button" key={uuid_v4()} className="w-4/6">
                 <button as="div" onClick={openModal} className="text-left">
-                  <h1 className="z-10 ml-4 font-bold my-2">{t(title)}</h1>
+                  <h1 className="z-10 ml-4 font-bold my-2 h-12 md:h-6">{t(title)}</h1>
                   <div className="h-[22rem] relative flex">
                     <div className="bg-light-blue w-1"></div>
                     <div className="w-3"></div>
@@ -228,7 +228,7 @@ function Carousel() {
                         leaveFrom="opacity-100 scale-100"
                         leaveTo="opacity-0 scale-95"
                       >
-                        <div className="inline-block w-1/2 p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl ">
+                        <div className="inline-block md:w-1/2 w-10/12 p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl ">
                           <Dialog.Title
                             as="h1"
                             className="text-lg font-bold leading-6 text-gray-900 pb-2"
@@ -243,7 +243,7 @@ function Carousel() {
                               </p>
                             </div>
                           </div>
-                          <div className="flex pt-4">
+                          <div className="flex flex-col md:pt-4 py-4 gap-4">
                             <div>
                               <h1 className="font-semibold">
                                 {t(location.heading)}
@@ -252,7 +252,7 @@ function Carousel() {
                                 {t(location.text)}
                               </p>
                             </div>
-                            <div>
+                            <div className="md:ml-8">
                               <h1 className="font-semibold">
                                 {t(client.heading)}
                               </h1>

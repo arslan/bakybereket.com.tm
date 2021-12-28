@@ -1,6 +1,6 @@
 function Line() {
   return (
-    <div className="hidden lg:inline lines">
+    <div className="hidden md:inline lines">
       <div className="circle circle-top  top-[13.6rem] -left-8">
         <div className="inner-circle relative">
           <div className="line line-left absolute h-56 w-0.5 bg-light-blue top-1/2 left-[0.195rem]">

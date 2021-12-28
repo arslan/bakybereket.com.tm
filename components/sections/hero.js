@@ -12,13 +12,13 @@ function Hero() {
   return (
     <div className="relative">
       <Background />
-      <div className="flex">
-        <h1 className="flex-none w-96 font-black text-3xl my-auto py-48 text-dark-grey uppercase mr-5">
+      <div className="flex lg:flex-row flex-col">
+        <h1 className="flex-none md:w-96 font-black text-3xl my-auto py-12 md:py-48 text-dark-grey uppercase mr-5">
           {t('hero.heading')}
         </h1>
-        <div className="flex grow relative">
+        <div className="flex grow relative md:mt-8 h-96">
           {/* <Carousel /> */}
-          <Image className='object-scale-down h-48 w-[24rem]'
+          <Image className='md:object-scale-down object-cover h-48 w-[24rem]'
             src="/mainSliderImg1.jpg"
             alt="Picture of the author"
             width={550}
@@ -31,7 +31,7 @@ function Hero() {
 
       <Line />
       <HeroTexts />
-      <div className="absolute bottom-36 -right-14 rotate-90 hidden lg:inline-flex text-sm">
+      <div className="absolute bottom-36 -right-14 rotate-90 hidden md:inline-flex text-sm">
         <h3 className="font-semibold text-dark-grey/60">{t('hero.scroll')}</h3>
         <ChevronRightIcon className="my-auto h-5 w-5 text-dark-grey/60" />
       </div>

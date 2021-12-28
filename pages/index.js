@@ -26,19 +26,21 @@ function HomePage() {
       </Head>
       <main className="font-sans">
         <Header />
-        <div className="max-w-5xl mx-auto">
-          <Hero />
-          <Projects />
-          <About />
-        </div>
-        <div className="md:max-w-5xl md:mx-auto">
-          <SimpleReactLightbox>
-            <GallerySection />
-          </SimpleReactLightbox>
-        </div>
+        <div className="mx-5 md:mx-0">
+          <div className="max-w-5xl mx-auto">
+            <Hero />
+            <Projects />
+            <About />
+          </div>
+          <div className="md:max-w-5xl md:mx-auto">
+            <SimpleReactLightbox>
+              <GallerySection />
+            </SimpleReactLightbox>
+          </div>
 
-        <div className="max-w-5xl mx-auto">
-          <ContactsSection />
+          <div className="max-w-5xl mx-auto">
+            <ContactsSection />
+          </div>
         </div>
         <Footer />
       </main>
