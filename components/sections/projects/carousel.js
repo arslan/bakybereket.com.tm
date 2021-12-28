@@ -24,7 +24,7 @@ function Carousel() {
 
   const images = [
     {
-      source: '/gallery/1.png',
+      source: '/projects/1.1.png',
       title: 'projects.carousel.1st.title',
       description: 'projects.carousel.1st.text',
       location: {
@@ -40,13 +40,13 @@ function Carousel() {
         text: 'projects.carousel.1st.dates.text',
       },
       dialog_images: [
-        { image: '/gallery/1.png' },
-        { image: '/gallery/2.png' },
-        { image: '/gallery/3.png' },
+        { image: '/projects/1.1.png' },
+        { image: '/projects/1.2.png' },
+        { image: '/projects/1.3.png' },
       ],
     },
     {
-      source: '/gallery/2.png',
+      source: '/projects/2.1.jpg',
       title: 'projects.carousel.2nd.title',
       description: 'projects.carousel.2nd.text',
       location: {
@@ -62,13 +62,14 @@ function Carousel() {
         text: 'projects.carousel.2nd.dates.text',
       },
       dialog_images: [
-        { image: '/gallery/4.png' },
-        { image: '/gallery/5.png' },
-        { image: '/gallery/6.png' },
+        { image: '/projects/2.1.jpg' },
+        { image: '/projects/2.2.jpg' },
+        { image: '/projects/2.3.jpg' },
+        { image: '/projects/2.4.jpg' },
       ],
     },
     {
-      source: '/gallery/3.png',
+      source: '/projects/3.1.jpg',
       title: 'projects.carousel.3rd.title',
       description: 'projects.carousel.3rd.text',
       location: {
@@ -84,13 +85,13 @@ function Carousel() {
         text: 'projects.carousel.3rd.dates.text',
       },
       dialog_images: [
-        { image: '/gallery/7.png' },
-        { image: '/gallery/8.png' },
-        { image: '/gallery/9.png' },
+        { image: '/projects/3.1.jpg' },
+        { image: '/projects/3.2.jpg' },
+        { image: '/projects/3.3.jpg' },
       ],
     },
     {
-      source: '/gallery/4.png',
+      source: '/projects/4.1.jpg',
       title: 'projects.carousel.4th.title',
       description: 'projects.carousel.4th.text',
       location: {
@@ -106,9 +107,9 @@ function Carousel() {
         text: 'projects.carousel.4th.dates.text',
       },
       dialog_images: [
-        { image: '/gallery/10.png' },
-        { image: '/gallery/11.png' },
-        { image: '/gallery/12.png' },
+        { image: '/projects/4.1.jpg' },
+        { image: '/projects/4.2.jpg' },
+        { image: '/projects/4.3.jpg' },
       ],
     },
     // {
