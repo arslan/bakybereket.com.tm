@@ -6,6 +6,7 @@ function Nav(props) {
     { name: 'header.home', href: '#home' },
     { name: 'header.projects', href: '#projects' },
     { name: 'header.about', href: '#about' },
+    { name: 'header.gallery', href: '#gallery' },
     { name: 'header.contacts', href: '#contacts' },
   ]
   return (

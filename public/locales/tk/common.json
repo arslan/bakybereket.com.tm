@@ -3,6 +3,7 @@
     "home": "Başy",
     "projects": "Taslamalar",
     "about": "Biz Barada",
+    "gallery": "Galereýamyz",
     "contacts": "Habarlaşmak"
   },
   "hero": {
@@ -13,7 +14,7 @@
         "text": "\"Baky Bereket\" hususy kärhanasy ýaşaýyş jaýlary, şeýle hem senagat, raýat we oba hojalyk maksatly desgalary gurmak boýunça işleriň doly tapgyryny ýerine ýetirýär."
       },
       "second": {
-        "heading": "Durkuny täzelemek",
+        "heading": "Konstruksiýa täzelemek",
         "text": "Kompaniýamyzyň düýpli gurluşyk taslamalarynyň üstünden gurmak, täzeden gurmak, giňeltmek boýunça uly tejribesi bar, şeýle hem göteriji gurluşyk düzütlerini çalyşmak we dikeltmek boýunça işlere ýöriteleşen kompaniýa bolup durýarys."
       },
       "third": {
@@ -120,7 +121,7 @@
     }
   },
   "gallery": {
-    "heading": "Bizin Işleremiz"
+    "heading": "Galereýamyz"
   },
   "contacts": {
     "heading": "Salgymyz",
