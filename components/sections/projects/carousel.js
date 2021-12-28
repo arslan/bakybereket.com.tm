@@ -1,16 +1,20 @@
-import { Swiper, SwiperSlide } from 'swiper/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
-import { useTranslation } from 'next-i18next'
-
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
+
+import DialogSwiper from './dialog_swiper'
+import Image from 'next/image'
+import { useTranslation } from 'next-i18next'
+import { v4 as uuid_v4 } from 'uuid'
 
 // import Swiper core and required modules
-import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper'
-import Image from 'next/image'
 
-import { v4 as uuid_v4 } from 'uuid'
-import DialogSwiper from './dialog_swiper'
+
+
+
+
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation, Autoplay])
@@ -107,28 +111,28 @@ function Carousel() {
         { image: '/gallery/12.png' },
       ],
     },
-    {
-      source: '/gallery/5.png',
-      title: 'projects.carousel.5th.title',
-      description: 'projects.carousel.5th.text',
-      location: {
-        heading: 'projects.carousel.4th.location.heading',
-        text: 'projects.carousel.4th.location.text',
-      },
-      client: {
-        heading: 'projects.carousel.4th.client.heading',
-        text: 'projects.carousel.4th.client.text',
-      },
-      dates: {
-        heading: 'projects.carousel.4th.dates.heading',
-        text: 'projects.carousel.4th.dates.text',
-      },
-      dialog_images: [
-        { image: '/gallery/13.png' },
-        { image: '/gallery/14.png' },
-        { image: '/gallery/15.png' },
-      ],
-    },
+    // {
+    //   source: '/gallery/5.png',
+    //   title: 'projects.carousel.5th.title',
+    //   description: 'projects.carousel.5th.text',
+    //   location: {
+    //     heading: 'projects.carousel.4th.location.heading',
+    //     text: 'projects.carousel.4th.location.text',
+    //   },
+    //   client: {
+    //     heading: 'projects.carousel.4th.client.heading',
+    //     text: 'projects.carousel.4th.client.text',
+    //   },
+    //   dates: {
+    //     heading: 'projects.carousel.4th.dates.heading',
+    //     text: 'projects.carousel.4th.dates.text',
+    //   },
+    //   dialog_images: [
+    //     { image: '/gallery/13.png' },
+    //     { image: '/gallery/14.png' },
+    //     { image: '/gallery/15.png' },
+    //   ],
+    // },
   ]
 
   return (

@@ -1,9 +1,10 @@
-import Carousel from './hero/carousel'
 import Background from './hero/background'
+import Carousel from './hero/carousel'
 import { ChevronRightIcon } from '@heroicons/react/solid'
-import { useTranslation } from 'next-i18next'
-import Line from './hero/line'
 import HeroTexts from './hero/hero_texts'
+import Image from 'next/image'
+import Line from './hero/line'
+import { useTranslation } from 'next-i18next'
 
 function Hero() {
   const { t } = useTranslation('common')
@@ -16,7 +17,15 @@ function Hero() {
           {t('hero.heading')}
         </h1>
         <div className="flex grow relative">
-          <Carousel />
+          {/* <Carousel /> */}
+          <Image className='object-scale-down h-48 w-96'
+            src="/mainSliderImg1.jpg"
+            alt="Picture of the author"
+            width={550}
+            height={200}
+             />
+              
+            
         </div>
       </div>
 

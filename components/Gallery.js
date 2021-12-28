@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next'
 const GallerySection = () => {
   const { t } = useTranslation('common')
   return (
-    <div className="mb-20">
+    <div id='gallery' className="mb-20">
       <h2 className="text-black font-bold text-lg text-center pb-8">
         {t('gallery.heading')}
       </h2>
