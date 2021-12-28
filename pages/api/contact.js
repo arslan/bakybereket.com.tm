@@ -6,13 +6,13 @@ export default async function (req, res) {
     secure: true,
     tls: { rejectUnauthorized: false },
     auth: {
-      user: 'bakybereket@gmail.com',
-      pass: '20bakybereket15',
+      user: 'bakybereket.web@gmail.com',
+      pass: 'bakyPa$$word123',
     },
   })
   const nda = req.body.NDA ? 'ДА' : 'Нет'
   const message = {
-    // from: `Email <${req.body.Email}>`,
+    from: `Email <bakybereket.web@gmail.com>`,
     to: 'bakybereket@gmail.com',
     subject: 'Cвяжитесь с нами',
     text: `Mail: ${req.body.Email} \nNumber: ${req.body.Number} \nMessage: ${req.body.Message} \nЯ согласен на получение ответа и рассылок на эл. почту: ${nda}`,
