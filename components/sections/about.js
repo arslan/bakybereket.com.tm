@@ -29,7 +29,7 @@ const About = () => {
         <h1 className="text-dark-grey font-bold text-2xl my-auto pb-6 md:mt-12 uppercase">{t('about.heading_advantages')}</h1>
         <div className="flex md:flex-row gap-24 flex-col items-center text-center pt-8 pb-20">
           <div className="">
-            <Image src={group1} width={80} height={80} />
+            <Image src={group1} width={80} height={80} placeholder="blur" blurDataURL={group1}/>
             <p>{t('about.advantages.1st')}</p>
           </div>
           <div className="">

@@ -23,6 +23,8 @@ function Hero() {
             alt="Picture of the author"
             width={550}
             height={200}
+            placeholder="blur"
+            blurDataURL="/mainSliderImg1.jpg"
              />
               
             

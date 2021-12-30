@@ -62,7 +62,7 @@ function DialogSwiper(props) {
           return (
             <SwiperSlide as="button" key={uuid_v4()} className="">
               <div className="h-[22rem] w-full relative">
-                <Image src={image} layout="fill" objectFit="cover" />
+                <Image src={image} layout="fill" objectFit="cover" placeholder="blur" blurDataURL={image}/>
               </div>
             </SwiperSlide>
           )

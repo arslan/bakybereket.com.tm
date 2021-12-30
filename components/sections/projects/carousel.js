@@ -187,7 +187,7 @@ function Carousel() {
                     <div className="bg-light-blue w-1"></div>
                     <div className="w-3"></div>
                     <div className="h-full w-full relative">
-                      <Image src={source} layout="fill" objectFit="cover" />
+                      <Image src={source} layout="fill" objectFit="cover" placeholder="blur" blurDataURL={source}/>
                     </div>
                   </div>
                   <p className="pt-4 ml-4 mb-16">{t(description)}</p>

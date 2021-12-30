@@ -30,6 +30,8 @@ function LightboxGrid() {
                   width={1200}
                   height={800}
                   objectFit="cover"
+                  placeholder="blur"
+                  blurDataURL={source}
                 />
               </a>
             </div>
