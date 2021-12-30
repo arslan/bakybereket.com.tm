@@ -12,12 +12,12 @@ const About = () => {
   return (
     <div id="about" className="bg-white text-dark-grey mt-11">
       <div className="flex flex-col md:flex-row items-center justify-between h-80">
-        <div className="flex flex-col pr-6">
+        <div className="flex flex-col pr-6 md:mb-0 mb-6">
           <div className="">
-            <h1 className="text-dark-grey -mb-7 font-bold text-2xl my-auto md:pt-12 pb-6 md:mt-12 pr-20 uppercase">
+            <h1 className="text-dark-grey font-bold text-2xl my-auto md:pt-12 pb-2 md:mt-12 pr-20 uppercase">
               {t('about.heading_about')}
             </h1>
-            <div className="w-4/6 h-0.5 bg-light-blue my-3"></div>
+            <div className="w-4/6 h-0.5 bg-light-blue mb-4"></div>
           </div>
           <p className="text-left h-40 max-w-3xl">{t('about.text')}</p>
         </div>

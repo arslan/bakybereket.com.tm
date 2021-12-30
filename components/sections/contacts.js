@@ -19,20 +19,21 @@ const ContactsSection = () => {
           className="flex flex-col md:flex-row m-auto bg-local bg-no-repeat bg-[center_right_13rem] bg-46%"
           style={{ backgroundImage: "url('/bgSection4.svg')" }}
         >
-          <div className="flex flex-col mr-12">
+          <div className="flex flex-col md:mr-12">
             <div>
               <h2 className="not-italic pb-16 min-h-min text-dark-grey font-bold text-2xl uppercase">
                 {t('contacts.heading')}
               </h2>
-              <p className="not-italic font-normal  max-w-[512px] relative  min-h-min">
+              <p className="not-italic font-normal  max-w-[512px] relative min-h-min">
                 {t('contacts.company')} <br /> {t('contacts.address')}{' '}
-                <div className="w-full h-0.5 bg-light-blue my-3"></div>
               </p>
+              <div className="w-full h-0.5 bg-light-blue my-3"></div>
+
               <div className="pt-1 not-italic font-normal relative min-h-min">
                 <p>{t('contacts.tel')}</p>
                 <p>{t('contacts.fax')}</p>
-                <div className="w-4/6 h-[0.150rem] bg-light-blue my-3"></div>
               </div>
+              <div className="w-4/6 h-[0.150rem] bg-light-blue my-3"></div>
             </div>
 
             <p className="pt-2 not-italic font-normal">
@@ -59,7 +60,7 @@ const ContactsSection = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col justify-start lnot-italic md:ml-12">
+          <div className="flex flex-col justify-start md:ml-12">
             <h1 className="text-dark-grey font-bold text-2xl uppercase pb-12">
               {t('contacts.form.heading')}
             </h1>
