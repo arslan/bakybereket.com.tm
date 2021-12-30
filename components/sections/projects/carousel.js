@@ -11,9 +11,25 @@ import { v4 as uuid_v4 } from 'uuid'
 
 // import Swiper core and required modules
 
+// statically import the images
+
+import Carousel_1_1 from '../../../public/projects/1.1.png'
+import Carousel_1_2 from '../../../public/projects/1.2.png'
+import Carousel_1_3 from '../../../public/projects/1.3.png'
+
+import Carousel_2_1 from '../../../public/projects/2.1.jpg'
+import Carousel_2_2 from '../../../public/projects/2.2.jpg'
+import Carousel_2_3 from '../../../public/projects/2.3.jpg'
+import Carousel_2_4 from '../../../public/projects/2.4.jpg'
+
+import Carousel_3_1 from '../../../public/projects/3.1.jpg'
+import Carousel_3_2 from '../../../public/projects/3.2.jpg'
+import Carousel_3_3 from '../../../public/projects/3.3.jpg'
 
 
-
+import Carousel_4_1 from '../../../public/projects/4.1.jpg'
+import Carousel_4_2 from '../../../public/projects/4.2.jpg'
+import Carousel_4_3 from '../../../public/projects/4.3.jpg'
 
 
 // install Swiper modules
@@ -24,7 +40,7 @@ function Carousel() {
 
   const images = [
     {
-      source: '/projects/1.1.png',
+      source: Carousel_1_1,
       title: 'projects.carousel.1st.title',
       description: 'projects.carousel.1st.text',
       location: {
@@ -40,13 +56,13 @@ function Carousel() {
         text: 'projects.carousel.1st.dates.text',
       },
       dialog_images: [
-        { image: '/projects/1.1.png' },
-        { image: '/projects/1.2.png' },
-        { image: '/projects/1.3.png' },
+        { image: Carousel_1_1},
+        { image: Carousel_1_2 },
+        { image: Carousel_1_3 },
       ],
     },
     {
-      source: '/projects/2.1.jpg',
+      source: Carousel_2_1,
       title: 'projects.carousel.2nd.title',
       description: 'projects.carousel.2nd.text',
       location: {
@@ -62,14 +78,14 @@ function Carousel() {
         text: 'projects.carousel.2nd.dates.text',
       },
       dialog_images: [
-        { image: '/projects/2.1.jpg' },
-        { image: '/projects/2.2.jpg' },
-        { image: '/projects/2.3.jpg' },
-        { image: '/projects/2.4.jpg' },
+        { image: Carousel_2_1 },
+        { image: Carousel_2_2 },
+        { image: Carousel_2_3 },
+        { image: Carousel_2_4 },
       ],
     },
     {
-      source: '/projects/3.1.jpg',
+      source: Carousel_3_1,
       title: 'projects.carousel.3rd.title',
       description: 'projects.carousel.3rd.text',
       location: {
@@ -85,13 +101,13 @@ function Carousel() {
         text: 'projects.carousel.3rd.dates.text',
       },
       dialog_images: [
-        { image: '/projects/3.1.jpg' },
-        { image: '/projects/3.2.jpg' },
-        { image: '/projects/3.3.jpg' },
+        { image: Carousel_3_1 },
+        { image: Carousel_3_2 },
+        { image: Carousel_3_3 },
       ],
     },
     {
-      source: '/projects/4.1.jpg',
+      source: Carousel_4_1,
       title: 'projects.carousel.4th.title',
       description: 'projects.carousel.4th.text',
       location: {
@@ -107,9 +123,9 @@ function Carousel() {
         text: 'projects.carousel.4th.dates.text',
       },
       dialog_images: [
-        { image: '/projects/4.1.jpg' },
-        { image: '/projects/4.2.jpg' },
-        { image: '/projects/4.3.jpg' },
+        { image: Carousel_4_1 },
+        { image: Carousel_4_2 },
+        { image: Carousel_4_3 },
       ],
     },
     // {
@@ -182,12 +198,20 @@ function Carousel() {
             return (
               <SwiperSlide as="button" key={uuid_v4()} className="w-4/6">
                 <button as="div" onClick={openModal} className="text-left">
-                  <h1 className="z-10 ml-4 font-bold my-2 h-12 md:h-6">{t(title)}</h1>
+                  <h1 className="z-10 ml-4 font-bold my-2 h-12 md:h-6">
+                    {t(title)}
+                  </h1>
                   <div className="h-[22rem] relative flex">
                     <div className="bg-light-blue w-1"></div>
                     <div className="w-3"></div>
                     <div className="h-full w-full relative">
-                      <Image src={source} layout="fill" objectFit="cover" placeholder="blur" blurDataURL={source}/>
+                      <Image
+                        src={source}
+                        layout="fill"
+                        objectFit="cover"
+                        placeholder="blur"
+                        blurDataURL={source}
+                      />
                     </div>
                   </div>
                   <p className="pt-4 ml-4 mb-16">{t(description)}</p>

@@ -6,6 +6,9 @@ import Image from 'next/image'
 import Line from './hero/line'
 import { useTranslation } from 'next-i18next'
 
+// Statically import images
+import HeroImage from '../../public/mainSliderImg1.jpg'
+
 function Hero() {
   const { t } = useTranslation('common')
 
@@ -18,16 +21,15 @@ function Hero() {
         </h1>
         <div className="flex grow relative md:mt-8 h-96">
           {/* <Carousel /> */}
-          <Image className='md:object-scale-down object-cover h-48 w-[24rem]'
-            src="/mainSliderImg1.jpg"
+          <Image
+            className="md:object-scale-down object-cover h-48 w-[24rem]"
+            src={HeroImage}
             alt="Picture of the author"
             width={550}
             height={200}
             placeholder="blur"
-            blurDataURL="/mainSliderImg1.jpg"
-             />
-              
-            
+            blurDataURL={HeroImage}
+          />
         </div>
       </div>
 

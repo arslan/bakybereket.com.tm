@@ -22,7 +22,7 @@ const About = () => {
           <p className="text-left h-40 max-w-3xl">{t('about.text')}</p>
         </div>
         <div className="md:pl-6 w-full mx-auto md:my-0 mt-12 relative">
-          <Image src={unsp} />
+          <Image src={unsp} placeholder="blur" />
         </div>
       </div>
       <div className="flex flex-col items-center h-full md:pt-12 pt-48">
