@@ -10,7 +10,7 @@ export default async function (req, res) {
       pass: 'bakyPa$$word123',
     },
   })
-  const nda = req.body.NDA ? 'ДА' : 'Нет'
+  const nda = req.body.NDA ? 'Да' : 'Нет'
   const message = {
     from: `Email <bakybereket.web@gmail.com>`,
     to: 'bakybereket@gmail.com',

@@ -210,7 +210,8 @@ function Carousel() {
                         layout="fill"
                         objectFit="cover"
                         placeholder="blur"
-                        blurDataURL={source}
+                        quality={20}
+                        priority
                       />
                     </div>
                   </div>
@@ -267,7 +268,7 @@ function Carousel() {
                               </p>
                             </div>
                           </div>
-                          <div className="flex flex-col md:pt-4 py-4 gap-4">
+                          <div className="flex md:flex-row flex-col md:pt-4 py-4 gap-4">
                             <div>
                               <h1 className="font-semibold">
                                 {t(location.heading)}

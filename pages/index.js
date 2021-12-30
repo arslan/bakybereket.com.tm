@@ -30,7 +30,7 @@ function HomePage() {
           <div className="max-w-5xl mx-auto">
             <Hero />
             <Projects />
-            <About />
+            {/* <About /> */}
           </div>
           <div className="md:max-w-5xl md:mx-auto">
             <SimpleReactLightbox>

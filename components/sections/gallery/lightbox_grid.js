@@ -11,8 +11,8 @@ import Gallery_5 from '../../../public/gallery/5.jpg'
 import Gallery_6 from '../../../public/gallery/6.jpg'
 import Gallery_7 from '../../../public/gallery/7.jpg'
 import Gallery_8 from '../../../public/gallery/8.png'
-import Gallery_9 from '../../../public/gallery/9.JPG'
-import Gallery_10 from '../../../public/gallery/10.JPG'
+import Gallery_9 from '../../../public/gallery/9.jpg'
+import Gallery_10 from '../../../public/gallery/10.jpg'
 
 
 const images = [
@@ -42,8 +42,9 @@ function LightboxGrid() {
                   width={1200}
                   height={800}
                   objectFit="cover"
+                  quality={20}
                   placeholder="blur"
-                  blurDataURL={source}
+                  priority
                 />
               </a>
             </div>

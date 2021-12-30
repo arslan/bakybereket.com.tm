@@ -46,7 +46,7 @@ function Carousel() {
         {images.map(({ source }) => {
           return (
             <SwiperSlide key={uuid_v4()} className="w-5/6">
-              <Image src={source} layout="fill" objectFit="cover"></Image>
+              <Image src={source} layout="fill" objectFit="cover" quality={20}></Image>
             </SwiperSlide>
           )
         })}

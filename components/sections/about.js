@@ -3,7 +3,6 @@ import group1 from '../../public/about/Group1.svg'
 import group2 from '../../public/about/Group2.svg'
 import group3 from '../../public/about/Group3.svg'
 import unsp from '../../public/about/unsplash.jpg'
-import underline1 from '../../public/about/underline.svg'
 import { useTranslation } from 'next-i18next'
 
 const About = () => {
@@ -26,10 +25,12 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col items-center h-full md:pt-12 pt-48">
-        <h1 className="text-dark-grey font-bold text-2xl my-auto pb-6 md:mt-12 uppercase">{t('about.heading_advantages')}</h1>
+        <h1 className="text-dark-grey font-bold text-2xl my-auto pb-6 md:mt-12 uppercase">
+          {t('about.heading_advantages')}
+        </h1>
         <div className="flex md:flex-row gap-24 flex-col items-center text-center pt-8 pb-20">
           <div className="">
-            <Image src={group1} width={80} height={80} placeholder="blur" blurDataURL={group1}/>
+            <Image src={group1} width={80} height={80} />
             <p>{t('about.advantages.1st')}</p>
           </div>
           <div className="">

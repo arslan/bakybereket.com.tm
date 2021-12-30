@@ -11,15 +11,15 @@ SwiperCore.use([Pagination, Navigation, Autoplay])
 
 function DialogSwiper(props) {
   const images = props.data
-  const dialog_images = [
-    { source: '/gallery/1.png' },
-    { source: '/gallery/2.png' },
-    { source: '/gallery/3.png' },
-    { source: '/gallery/4.png' },
-    { source: '/gallery/5.png' },
-    { source: '/gallery/6.png' },
-    { source: '/gallery/7.png' },
-  ]
+  // const dialog_images = [
+  //   { source: '/gallery/1.png' },
+  //   { source: '/gallery/2.png' },
+  //   { source: '/gallery/3.png' },
+  //   { source: '/gallery/4.png' },
+  //   { source: '/gallery/5.png' },
+  //   { source: '/gallery/6.png' },
+  //   { source: '/gallery/7.png' },
+  // ]
   const [swiper, setSwiper] = useState(null)
 
   const prevSlide = () => {
@@ -62,7 +62,7 @@ function DialogSwiper(props) {
           return (
             <SwiperSlide as="button" key={uuid_v4()} className="">
               <div className="h-[22rem] w-full relative">
-                <Image src={image} layout="fill" objectFit="cover" placeholder="blur" blurDataURL={image}/>
+                <Image src={image} layout="fill" objectFit="cover" quality={20} placeholder="blur" priority />
               </div>
             </SwiperSlide>
           )

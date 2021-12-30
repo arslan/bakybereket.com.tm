@@ -24,11 +24,11 @@ function Hero() {
           <Image
             className="md:object-scale-down object-cover h-48 w-[24rem]"
             src={HeroImage}
-            alt="Picture of the author"
+            alt="Rysgal Bank"
             width={550}
             height={200}
+            quality={20}
             placeholder="blur"
-            blurDataURL={HeroImage}
           />
         </div>
       </div>
