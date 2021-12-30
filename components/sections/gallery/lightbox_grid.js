@@ -41,6 +41,7 @@ function LightboxGrid() {
                   alt=""
                   width={1200}
                   height={800}
+                  sizes="25vw"
                   objectFit="cover"
                   quality={20}
                   placeholder="blur"
