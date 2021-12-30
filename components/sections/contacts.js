@@ -24,18 +24,18 @@ const ContactsSection = () => {
               <h2 className="not-italic pb-16 min-h-min text-dark-grey font-bold text-2xl uppercase">
                 {t('contacts.heading')}
               </h2>
-              <p className="not-italic font-normal  max-w-[512px]  min-h-min">
+              <p className="not-italic font-normal  max-w-[512px] relative  min-h-min">
                 {t('contacts.company')} <br /> {t('contacts.address')}{' '}
                 <div className="w-full h-0.5 bg-light-blue my-3"></div>
               </p>
-              <div className="pt-1 not-italic font-normal  min-h-min">
+              <div className="pt-1 not-italic font-normal relative min-h-min">
                 <p>{t('contacts.tel')}</p>
                 <p>{t('contacts.fax')}</p>
-                <div className="w-4/6 h-0.5 bg-light-blue my-3"></div>
+                <div className="w-4/6 h-[0.150rem] bg-light-blue my-3"></div>
               </div>
             </div>
 
-            <p className="pt-5 not-italic font-normal">
+            <p className="pt-2 not-italic font-normal">
               {t('contacts.email')}{' '}
             </p>
             <div className="flex items-center justify-start text-white space-x-5 pt-6 mb-8">
