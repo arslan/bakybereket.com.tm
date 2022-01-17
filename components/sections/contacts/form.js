@@ -1,29 +1,42 @@
-import React from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useTranslation } from 'next-i18next'
+import HCaptcha from '@hcaptcha/react-hcaptcha'
 
 export default function Form() {
+  const [token, setToken] = useState(null)
+  const captchaRef = useRef(null)
+
+  // const onLoad = () => {
+  //   captchaRef.current.execute()
+  // }
+  useEffect(() => {
+    if (token) console.log(`hCaptcha Token: ${token}`)
+  }, [token])
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm()
-  const onSubmit = (data) => {
-    console.log(data)
-    console.log(errors)
-    fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json, text/plain, */*',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log(res.status)
-    })
-  }
 
+  const onSubmit = (data) => {
+    if (!!token) {
+      console.log(data)
+      console.log(errors)
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json, text/plain, */*',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      }).then((res) => {
+        console.log(res.status)
+      })
+    } else console.log('not ca')
+  }
   const { t } = useTranslation('common')
+
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
@@ -53,8 +66,14 @@ export default function Form() {
       />
 
       <textarea
-        className="text-justify w-xl h-40 box-border rounded border-2 mt-5 outline-none"
+        className="text-justify w-xl h-40 box-border rounded border-2 mt-5 outline-none mb-5"
         {...register('Message', {})}
+      />
+      <HCaptcha
+        sitekey="f8cd3bca-d3d7-48c2-b68d-c2cf89036ff4"
+        // onLoad={onLoad}
+        onVerify={setToken}
+        ref={captchaRef}
       />
       <div className="flex items-center justify-start -mt-5">
         <input className="w-4 h-4 mb-4" type="checkbox" {...register('NDA')} />
