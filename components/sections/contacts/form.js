@@ -2,17 +2,12 @@ import { useEffect, useRef, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useTranslation } from 'next-i18next'
 import HCaptcha from '@hcaptcha/react-hcaptcha'
+import channel from 'sharp/lib/channel'
 
 export default function Form() {
   const [token, setToken] = useState(null)
   const captchaRef = useRef(null)
-
-  // const onLoad = () => {
-  //   captchaRef.current.execute()
-  // }
-  useEffect(() => {
-    if (token) console.log(`hCaptcha Token: ${token}`)
-  }, [token])
+  useEffect(() => {}, [token])
   const {
     register,
     handleSubmit,
@@ -21,8 +16,6 @@ export default function Form() {
 
   const onSubmit = (data) => {
     if (!!token) {
-      console.log(data)
-      console.log(errors)
       fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -30,10 +23,8 @@ export default function Form() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(data),
-      }).then((res) => {
-        console.log(res.status)
-      })
-    } else console.log('not ca')
+      }).then((res) => {})
+    }
   }
   const { t } = useTranslation('common')
 
@@ -70,7 +61,7 @@ export default function Form() {
         {...register('Message', {})}
       />
       <HCaptcha
-        sitekey="f8cd3bca-d3d7-48c2-b68d-c2cf89036ff4"
+        sitekey={process.env.HCAPTCHA}
         // onLoad={onLoad}
         onVerify={setToken}
         ref={captchaRef}
