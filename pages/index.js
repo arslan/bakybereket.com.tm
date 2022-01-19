@@ -18,6 +18,13 @@ function HomePage() {
     <>
       <Head>
         <title>Baky Bereket</title>
+        <meta name="description" content=">Baky Bereket" key="desc" />
+        <meta name="robots" content="noindex,nofollow" />
+        <link
+          rel="canonical"
+          href="https://bakybereket.com.tm"
+          key="canonical"
+        />
         <link rel="icon" href="/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;900&display=optional"
