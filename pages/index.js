@@ -18,7 +18,7 @@ function HomePage() {
     <>
       <Head>
         <title>Baky Bereket</title>
-        <meta name="description" content=">Baky Bereket" key="desc" />
+        <meta name="description" content="Baky Bereket" key="desc" />
         <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
